@@ -2,7 +2,7 @@
 const Programs = () => {
     return (
         <div>
-            <h2>This is Alumni</h2>
+            <h2>This is Programs</h2>
         </div>
     );
 };

@@ -2,7 +2,7 @@
 const InternationalStudents = () => {
     return (
         <div>
-            <h2>This is Alumni</h2>
+            <h2>This is InternationalStudents</h2>
         </div>
     );
 };
