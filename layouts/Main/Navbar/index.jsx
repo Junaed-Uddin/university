@@ -3,14 +3,14 @@ import UpperSection from "./UpperSection";
 import { FiSearch } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import { useState } from "react";
+import SearchOverlay from "@/components/SearchOverlay";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   const { pathname } = useRouter();
 
   return (
-    /*
-     * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
-     */
     <>
       <UpperSection />
       <header
@@ -40,10 +40,14 @@ const Navbar = () => {
           ))}
         </nav>
         {/* search button */}
-        <button className="rounded-full hover:bg-primary/10 hover:text-primary w-10 h-10 flex justify-center items-center">
+        <button
+          onClick={() => setOpen(true)}
+          className="rounded-full hover:bg-primary/10 hover:text-primary w-10 h-10 flex justify-center items-center"
+        >
           <FiSearch />
         </button>
       </header>
+      <SearchOverlay open={open} onClose={() => setOpen(false)} />
     </>
   );
 };
