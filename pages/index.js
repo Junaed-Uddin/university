@@ -1,16 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import Alumni from '@/components/Home/Alumni'
-import CampusLife from '@/components/Home/CampusLife'
-import Career from '@/components/Home/Career'
-import Faculty from '@/components/Home/Faculty'
-import InternationalStudents from '@/components/Home/InternationalStudents'
-import Programs from '@/components/Home/Programs'
-import Scholarship from '@/components/Home/Scholarship'
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from "next/head";
+import Alumni from "@/components/Home/Alumni";
+import CampusLife from "@/components/Home/CampusLife";
+import Career from "@/components/Home/Career";
+import Faculty from "@/components/Home/Faculty";
+import InternationalStudents from "@/components/Home/InternationalStudents";
+import Programs from "@/components/Home/Programs";
+import Scholarship from "@/components/Home/Scholarship";
 
 export default function Home() {
   return (
@@ -31,5 +26,5 @@ export default function Home() {
         <Scholarship></Scholarship>
       </>
     </>
-  )
+  );
 }
