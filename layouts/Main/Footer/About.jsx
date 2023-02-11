@@ -2,13 +2,13 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="col-start-1 col-end-13 py-3 border-t-[1px] border-t-ol-default">
+    <div className="col-start-1 sm:col-start-7 col-end-13 sm:col-end-10 py-3 border-t-[1px] border-t-ol-default">
       <h1 className="font-semibold text-lg uppercase mb-2 text-slate-200">
         About
       </h1>
       <nav className="flex flex-col gap-1">
         <Link href="" className="hover:text-primary transition">
-          About
+          About Us
         </Link>
         <Link href="" className="hover:text-primary transition">
           Courses
