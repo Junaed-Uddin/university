@@ -1,19 +1,82 @@
 import Link from "next/link";
-import { MdOutlineEmail as MailIcon } from "react-icons/md";
 import UpperSection from "./UpperSection";
+import { FiSearch } from "react-icons/fi";
+import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const { pathname } = useRouter();
+
   return (
     /*
      * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
      */
     <>
       <UpperSection />
-      <header className="" id="navbar">
-        <h2 className="text-2xl text-amber-500">This is navbar</h2>
+      <header
+        className="px-[max(1.5rem,calc((100vw-1440px)/2))] border-b-[1px] border-b-ol-default flex gap-2 items-center"
+        id="navbar"
+      >
+        <Link href="/" className="text-2xl font-bold">
+          <span className="text-primary">KingStar</span>
+          <span> University</span>
+        </Link>
+
+        <nav className="ml-auto flex gap-1">
+          {links.map((link) => (
+            <Link
+              key={link.path}
+              href={link.path}
+              className="relative py-3 px-2"
+            >
+              {link.text}
+              {pathname === link.path && (
+                <motion.span
+                  layoutId="nav-underline"
+                  className="nav-underline absolute w-full h-1 bg-secondary bottom-0 left-0 rounded-tr-sm rounded-tl-sm"
+                />
+              )}
+            </Link>
+          ))}
+        </nav>
+        {/* search button */}
+        <button className="rounded-full hover:bg-primary/10 hover:text-primary w-10 h-10 flex justify-center items-center">
+          <FiSearch />
+        </button>
       </header>
     </>
   );
 };
 
 export default Navbar;
+
+const links = [
+  {
+    path: "/",
+    text: "Home",
+  },
+  {
+    path: "/pages",
+    text: "Pages",
+  },
+  {
+    path: "/admissions",
+    text: "Admissions",
+  },
+  {
+    path: "/courses",
+    text: "Courses",
+  },
+  {
+    path: "/campus-life",
+    text: "Campus Life",
+  },
+  {
+    path: "/contact-us",
+    text: "Contact Us",
+  },
+  {
+    path: "/about",
+    text: "About",
+  },
+];
