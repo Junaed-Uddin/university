@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MdOutlineEmail as MailIcon } from "react-icons/md";
+import UpperSection from "./UpperSection";
 
 const Navbar = () => {
   return (
@@ -7,33 +8,7 @@ const Navbar = () => {
      * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
      */
     <>
-      <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1440px)/2))] bg-primary text-blue-200">
-        <div className="flex gap-2 justify-between">
-          {/* left content */}
-          <div className="flex gap-2 items-center">
-            <MailIcon size={22} />
-            <span>example@domain.com</span>
-          </div>
-          {/* Right part */}
-          <div className="flex gap-3">
-            <Link href="/alumni" className="p-3 hover:bg-primary-hover">
-              Alumni
-            </Link>
-            <Link href="/calender" className="p-3 hover:bg-primary-hover">
-              Calendar
-            </Link>
-            <Link href="/portal" className="p-3 hover:bg-primary-hover">
-              Portal
-            </Link>
-            <Link
-              href="/support-ku"
-              className="p-3 text-white bg-secondary hover:bg-secondary-hover"
-            >
-              Support KU
-            </Link>
-          </div>
-        </div>
-      </section>
+      <UpperSection />
       <header className="" id="navbar">
         <h2 className="text-2xl text-amber-500">This is navbar</h2>
       </header>
