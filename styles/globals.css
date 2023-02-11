@@ -11,3 +11,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* Resets all a tag styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
