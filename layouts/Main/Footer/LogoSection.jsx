@@ -13,7 +13,7 @@ function LogoSection() {
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minima
         asperiores sint magni doloremque quod porro alias numquam ut
-        voluptatibus.
+        voluptatibus..
       </p>
 
       {/* Social Section */}
