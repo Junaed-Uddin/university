@@ -19,7 +19,7 @@ module.exports = {
         "on-secondary": "#fff",
         "text-primary": "#000",
         "text-secondary": "#1c1c1c",
-        "bg-main": "#f0f2f5",
+        background: "#f0f2f5",
         paper: "#ffffff",
         "ol-default": "rgba(0,0,0,0.15)",
       },
