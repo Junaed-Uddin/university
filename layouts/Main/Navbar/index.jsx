@@ -5,24 +5,28 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import SearchOverlay from "@/components/SearchOverlay";
+import { MdMenu } from "react-icons/md";
+import MenuDrawer from "./MenuDrawer";
+import links from "./links";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useRouter();
 
   return (
     <>
       <UpperSection />
       <header
-        className="px-[max(1.5rem,calc((100vw-1440px)/2))] border-b-[1px] border-b-ol-default flex gap-2 items-center"
+        className="px-[max(1.5rem,calc((100vw-1440px)/2))] py-2 lg:py-0 border-b-[1px] border-b-ol-default flex gap-2 items-center"
         id="navbar"
       >
-        <Link href="/" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold mr-auto">
           <span className="text-primary">KingStar</span>
           <span> University</span>
         </Link>
 
-        <nav className="ml-auto flex gap-1">
+        <nav className="hidden lg:flex gap-1">
           {links.map((link) => (
             <Link
               key={link.path}
@@ -46,41 +50,17 @@ const Navbar = () => {
         >
           <FiSearch />
         </button>
+        <button
+          onClick={() => setOpenMenu(true)}
+          className="rounded-full hover:bg-primary/10 hover:text-primary w-10 h-10 flex lg:hidden justify-center items-center text-2xl"
+        >
+          <MdMenu />
+        </button>
       </header>
       <SearchOverlay open={open} onClose={() => setOpen(false)} />
+      <MenuDrawer open={openMenu} onClose={() => setOpenMenu(false)} />
     </>
   );
 };
 
 export default Navbar;
-
-const links = [
-  {
-    path: "/",
-    text: "Home",
-  },
-  {
-    path: "/pages",
-    text: "Pages",
-  },
-  {
-    path: "/admissions",
-    text: "Admissions",
-  },
-  {
-    path: "/courses",
-    text: "Courses",
-  },
-  {
-    path: "/campus-life",
-    text: "Campus Life",
-  },
-  {
-    path: "/contact-us",
-    text: "Contact Us",
-  },
-  {
-    path: "/about",
-    text: "About",
-  },
-];

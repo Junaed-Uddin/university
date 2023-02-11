@@ -15,13 +15,22 @@ const UpperSection = () => {
         </div>
         {/* Right part */}
         <div className="flex gap-3">
-          <Link href="/alumni" className="p-3 hover:bg-primary-hover">
+          <Link
+            href="/alumni"
+            className="p-3 hover:bg-primary-hover hover:text-white"
+          >
             Alumni
           </Link>
-          <Link href="/calender" className="p-3 hover:bg-primary-hover">
+          <Link
+            href="/calender"
+            className="p-3 hover:bg-primary-hover hover:text-white"
+          >
             Calendar
           </Link>
-          <Link href="/portal" className="p-3 hover:bg-primary-hover">
+          <Link
+            href="/portal"
+            className="p-3 hover:bg-primary-hover hover:text-white"
+          >
             Portal
           </Link>
           <Link
