@@ -7,7 +7,7 @@ const Navbar = () => {
      * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
      */
     <>
-      <section className="px-[max(1.5rem,calc((100vw-1440px)/2))] bg-primary text">
+      <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1440px)/2))] bg-primary text-blue-200">
         <div className="flex gap-2 justify-between">
           {/* left content */}
           <div className="flex gap-2 items-center">
@@ -27,7 +27,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/support-ku"
-              className="p-3 bg-secondary hover:bg-secondary-hover"
+              className="p-3 text-white bg-secondary hover:bg-secondary-hover"
             >
               Support KU
             </Link>
