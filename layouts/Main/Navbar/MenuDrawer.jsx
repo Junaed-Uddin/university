@@ -63,13 +63,16 @@ function MenuDrawer({ open, onClose }) {
               <motion.span
                 variants={linkVariants}
                 key={link.path}
-                className={`px-3 py-1 hover:bg-paper rounded-md hover:scale-105 hover:shadow-lg hover:-translate-x-2 hover:-translate-y-1 transition cursor-pointer ${
+                onClick={onClose}
+                className={`flex hover:bg-paper rounded-md hover:scale-105 hover:shadow-lg hover:-translate-x-2 hover:-translate-y-1 transition cursor-pointer ${
                   pathname === link.path
                     ? "font-bold bg-primary/10 text-primary"
                     : ""
                 }`}
               >
-                <Link href={link.path}>{link.text}</Link>
+                <Link href={link.path} className="px-3 py-1 w-full">
+                  {link.text}
+                </Link>
               </motion.span>
             ))}
           </motion.nav>
