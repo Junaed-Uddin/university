@@ -30,7 +30,6 @@ const SearchOverlay = ({ open, onClose }) => {
             initial="hidden"
             animate="visible"
             exit="hidden"
-            role="button"
             onClick={onClose}
             className="fixed flex justify-center items-center p-[1.5rem] w-full h-full top-0 left-0 bg-blue-900/30 backdrop-blur-sm"
           >
