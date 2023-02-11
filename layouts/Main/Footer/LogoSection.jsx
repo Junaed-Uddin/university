@@ -10,10 +10,10 @@ function LogoSection() {
     <div className="col-start-1 col-end-13">
       <Link href="/">
         <div className="font-bold text-2xl leading-6">
-          <span className="text-blue-500">KingStar</span>
-          <span> University</span>
+          <span className="text-blue-700">KingStar</span>
+          <span className="text-slate-200"> University</span>
         </div>
-        <em className="text-sm text-gray-800 font-semibold">Science 2010</em>
+        <em className="text-sm font-semibold">Science 2010</em>
       </Link>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minima
