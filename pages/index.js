@@ -6,6 +6,7 @@ import Faculty from "@/components/Home/Faculty";
 import InternationalStudents from "@/components/Home/InternationalStudents";
 import Programs from "@/components/Home/Programs";
 import Scholarship from "@/components/Home/Scholarship";
+import HeroSection from "@/components/Home/Hero";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
+        <HeroSection />
         <Alumni></Alumni>
         <CampusLife></CampusLife>
         <Career></Career>
