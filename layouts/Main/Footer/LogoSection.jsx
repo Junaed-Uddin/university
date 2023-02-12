@@ -7,7 +7,7 @@ import { CgFacebook as FbIcon } from "react-icons/cg";
 
 function LogoSection() {
   return (
-    <div className="col-start-1 col-end-13 lg:col-end-5 flex flex-col w-full sm:items-center lg:items-start">
+    <div className="col-start-1 col-end-13 lg:col-end-5 xl:col-end-4 flex flex-col w-full sm:items-center lg:items-start md:pr-4">
       <Link
         href="/"
         className="flex flex-col sm:items-center lg:items-start mb-2"
