@@ -6,7 +6,7 @@ const UpperSection = () => {
     /*
      * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
      */
-    <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1440px)/2))] bg-primary text-blue-200">
+    <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1400px)/2))] bg-primary text-blue-200">
       <div className="flex gap-2 justify-between">
         {/* left content */}
         <div className="flex gap-2 items-center">
