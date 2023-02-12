@@ -6,6 +6,7 @@ import Faculty from "@/components/Home/Faculty";
 import InternationalStudents from "@/components/Home/InternationalStudents";
 import Programs from "@/components/Home/Programs";
 import Scholarship from "@/components/Home/Scholarship";
+import Contact from "@/components/Home/Contact";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <InternationalStudents></InternationalStudents>
         <Programs></Programs>
         <Scholarship></Scholarship>
+        <Contact />
       </>
     </>
   );
