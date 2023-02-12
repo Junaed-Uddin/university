@@ -9,10 +9,13 @@ const UpperSection = () => {
     <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1400px)/2))] bg-primary text-blue-200">
       <div className="flex gap-2 justify-between">
         {/* left content */}
-        <div className="flex gap-2 items-center">
+        <a
+          href="mailto:example@domain.com"
+          className="flex gap-2 items-center hover:text-white"
+        >
           <MailIcon size={22} />
           <span>example@domain.com</span>
-        </div>
+        </a>
         {/* Right part */}
         <div className="flex gap-3">
           <Link

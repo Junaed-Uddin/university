@@ -41,7 +41,7 @@ const Navbar = () => {
                 <span
                   // layoutId="nav-underline"
 
-                  className="nav-underline absolute w-6 h-5 rounded-full bg-primary -bottom-1 left-[50%] -translate-x-[50%] blur-md -z-20"
+                  className="nav-underline absolute w-6 h-[10%] rounded-full bg-primary bottom-1 left-[50%] -translate-x-[50%] blur-md -z-20"
                 />
               )}
             </Link>
