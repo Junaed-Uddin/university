@@ -31,16 +31,17 @@ const Navbar = () => {
             <Link
               key={link.path}
               href={link.path}
-              // scroll={false}
-              className={`relative py-4 px-2 ${
+              scroll={false}
+              className={`relative py-4 px-2 bg-paper ${
                 pathname === link.path ? "text-primary font-bold" : "text-black"
-              }`}
+              } before:block before:absolute before:w-full before:h-[50%] before:bg-blue-600/10 before:top-[50%] before:left-0 before:translate-y-[-50%] before:rounded before:scale-0 before:hover:scale-100 before:transition`}
             >
               {link.text}
               {pathname === link.path && (
-                <motion.span
-                  layoutId="nav-underline"
-                  className="nav-underline absolute w-full h-1 bg-secondary bottom-0 left-0 rounded-tr-sm rounded-tl-sm"
+                <span
+                  // layoutId="nav-underline"
+
+                  className="nav-underline absolute w-6 h-5 rounded-full bg-primary -bottom-1 left-[50%] -translate-x-[50%] blur-md -z-20"
                 />
               )}
             </Link>
