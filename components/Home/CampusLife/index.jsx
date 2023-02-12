@@ -95,7 +95,7 @@ const CampusLife = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-5 h-full  ">
+      <div className="col-span-5 h-full">
         {/* <div ref={prevRef} className="cursor-pointer">
           Hello
         </div>
