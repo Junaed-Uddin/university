@@ -70,7 +70,11 @@ function MenuDrawer({ open, onClose }) {
                     : ""
                 }`}
               >
-                <Link href={link.path} className="px-3 py-1 w-full">
+                <Link
+                  href={link.path}
+                  className="px-3 py-1 w-full flex gap-5 items-center"
+                >
+                  {link.icon}
                   {link.text}
                 </Link>
               </motion.span>
