@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       <UpperSection />
       <header
-        className="px-[max(1.5rem,calc((100vw-1400px)/2))] py-2 lg:py-0 border-b-[1px] border-b-ol-default flex gap-2 items-center"
+        className="px-[max(1.5rem,calc((100vw-1400px)/2))] py-2 lg:py-0 border-b-[1px] border-b-ol-default flex gap-2 items-center bg-paper sticky top-0 left-0 z-[1000]"
         id="navbar"
       >
         <Link href="/" className="text-2xl font-bold mr-auto">
@@ -31,7 +31,10 @@ const Navbar = () => {
             <Link
               key={link.path}
               href={link.path}
-              className="relative py-3 px-2"
+              // scroll={false}
+              className={`relative py-4 px-2 ${
+                pathname === link.path ? "text-primary font-bold" : "text-black"
+              }`}
             >
               {link.text}
               {pathname === link.path && (
