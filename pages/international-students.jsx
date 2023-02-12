@@ -1,11 +1,4 @@
-import InternationalStudents from '@/components/Home/InternationalStudents';
+import InternationalStudents from "@/components/Home/InternationalStudents";
 
-const IS = () => {
-    return (
-        <main className='main-wrapper'>
-            <InternationalStudents></InternationalStudents>
-        </main>
-    );
-};
-
+const IS = () => <InternationalStudents />;
 export default IS;

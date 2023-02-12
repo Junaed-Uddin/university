@@ -1,12 +1,5 @@
-import Scholarship from '@/components/Home/Scholarship';
-import React from 'react';
+import Scholarship from "@/components/Home/Scholarship";
 
-const SC = () => {
-    return (
-        <main className='main-wrapper'>
-            <Scholarship></Scholarship>
-        </main>
-    );
-};
+const SC = () => <Scholarship />;
 
 export default SC;

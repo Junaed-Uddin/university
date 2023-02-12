@@ -1,12 +1,5 @@
-import Career from '@/components/Home/Career';
-import React from 'react';
+import Career from "@/components/Home/Career";
 
-const CR = () => {
-    return (
-        <main className='main-wrapper'>
-            <Career></Career>
-        </main>
-    );
-};
+const CR = () => <Career></Career>;
 
 export default CR;
