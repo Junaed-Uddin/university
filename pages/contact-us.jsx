@@ -1,9 +1,5 @@
 import Contact from "@/components/Home/Contact";
 
-const Cont = () => {
-    <main className="main-wrapper">
-        <Contact />
-    </main>
-}
+const ContactUs = () => <Contact />;
 
-export default Cont;
+export default ContactUs;
