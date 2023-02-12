@@ -13,8 +13,8 @@ function LogoSection() {
         className="flex flex-col sm:items-center lg:items-start mb-2"
       >
         <div className="font-bold text-3xl leading-6">
-          <span className="text-blue-700">KingStar</span>
-          <span className="text-slate-200"> University</span>
+          <span className="text-blue-400">KingStar</span>
+          <span className="text-white"> University</span>
         </div>
         <em className="text-sm font-semibold">Science 2010</em>
       </Link>
