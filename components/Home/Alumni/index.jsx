@@ -16,19 +16,19 @@ const Alumni = () => {
       </div>
 
       {/* Alumni Flex Container */}
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center mt-16 relative w-full">
+      <div className="flex flex-col-reverse sm:flex-row justify-center items-center mt-16 relative w-full">
         {/* Text container  */}
         <div
-          className={`bg-white p-20 md:h-3/4 shadow-xl relative -translate-y-8 md:translate-y-0 md:translate-x-20 lg:translate-x-24 z-20 sm:w-1/2 mx-6`}
+          className={`bg-white p-10 md:p-20 md:h-[400px] shadow-xl relative -translate-y-8 sm:translate-y-0 sm:translate-x-16 lg:translate-x-24 z-20 sm:w-1/2 mx-6`}
         >
           <div className={`${styles.borderBox}`}>
             <h2
-              className={`text-2xl sm:text-3xl lg:text-4xl text-center font-display font-semibold relative w-full`}
+              className={`text-2xl md:text-3xl lg:text-4xl text-center font-display font-semibold relative w-full`}
             >
               Global Alumni Events
               <span className={`${styles.textUnderline}`}></span>
             </h2>
-            <p className={`font-body ${styles.alumniText} text-xl mt-7 max-w-[510px] md:max-w-[500px]`}>
+            <p className={`font-body ${styles.alumniText} text-lg sm:text-xl mt-7 md:max-w-[500px]`}>
               From virtual to in-person, the Alumni Office organizes
               exclusive events throughout the year and around the world.
               You can find also find information on University wide events.

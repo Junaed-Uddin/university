@@ -19,10 +19,6 @@
   border: 1px solid #eee;
 }
 
-.cardShadow {
-  box-shadow: -1px 2px 13px 10px rgba(190, 190, 190, 0.75);
-}
-
 .alumniText {
   overflow: hidden;
   text-overflow: ellipsis;
