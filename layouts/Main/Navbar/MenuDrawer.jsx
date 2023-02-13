@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import links from "./links";
+import { MdClose } from "react-icons/md";
 
 const backdropVariant = {
   hidden: {
@@ -31,7 +32,7 @@ const linkVariants = {
 
 const closeVariants = {
   hidden: { opacity: 0, scale: 0, x: "50%" },
-  visible: { opacity: 1, scale: 1, x: "-30px" },
+  visible: { opacity: 1, scale: 1, x: "-20px" },
 };
 
 function MenuDrawer({ open, onClose }) {
@@ -55,9 +56,9 @@ function MenuDrawer({ open, onClose }) {
             <motion.button
               variants={closeVariants}
               onClick={onClose}
-              className="absolute top-1 left-0 bg-paper p-2 font-semibold rounded-md -translate-x-8 shadow-md border hover:bg-red-50 hover:text-red-500"
+              className="absolute top-1 left-0 bg-paper p-2 font-semibold rounded-full -translate-x-2 shadow-md border hover:bg-red-50 hover:text-red-500"
             >
-              Close
+              <MdClose />
             </motion.button>
             {links.map((link) => (
               <motion.span

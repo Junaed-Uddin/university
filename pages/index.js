@@ -27,7 +27,6 @@ export default function Home() {
         <InternationalStudents></InternationalStudents>
         <Programs></Programs>
         <Scholarship></Scholarship>
-        <NewsLetter></NewsLetter>
       </>
     </>
   );
