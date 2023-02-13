@@ -6,12 +6,12 @@
 
 
 .optHover {
-	background-color: #cf2020;
+	background-color: #1a68db;
 
-	box-shadow: 0 10px 20px rgba(233, 59, 59, 0.5);
+	box-shadow: 0 10px 20px rgba(50, 75, 216, 0.5);
 }
 .optHover:hover {
-	box-shadow: 0 10px 10px rgba(233, 23, 23, 0.4);
+	box-shadow: 0 10px 10px rgba(23, 44, 233, 0.4);
 	transform: translateY(4px);
 }
 .optHover:active {
