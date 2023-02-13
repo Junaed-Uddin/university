@@ -3,16 +3,43 @@ import UpperSection from "./UpperSection";
 import { FiSearch } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SearchOverlay from "@/components/SearchOverlay";
 import { MdMenu } from "react-icons/md";
 import MenuDrawer from "./MenuDrawer";
 import links from "./links";
 
 const Navbar = () => {
+  const [underline, setUnderline] = useState({
+    position: 0,
+    prevPosition: 0,
+  });
   const [open, setOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useRouter();
+
+  useEffect(() => {
+    links.map((link, i) =>
+      link.path === pathname
+        ? setUnderline({
+            position: i,
+            prevPosition: 0,
+          })
+        : null
+    );
+  }, []);
+
+  function handleLinkMouseEnter(i) {
+    setUnderline((prev) => ({ ...prev, position: i }));
+  }
+
+  function handleLinkMouseLeave() {
+    setUnderline((prev) => ({ ...prev, position: prev.prevPosition }));
+  }
+
+  function handleLinkClick(i) {
+    setUnderline((prev) => ({ ...prev, prevPosition: i }));
+  }
 
   return (
     <>
@@ -27,21 +54,23 @@ const Navbar = () => {
         </Link>
 
         <nav className="hidden lg:flex gap-1">
-          {links.map((link) => (
+          {links.map((link, i) => (
             <Link
               key={link.path}
               href={link.path}
               scroll={false}
-              className={`relative py-4 px-2 bg-paper ${
+              onMouseEnter={() => handleLinkMouseEnter(i)}
+              onMouseLeave={handleLinkMouseLeave}
+              onClick={() => handleLinkClick(i)}
+              className={`relative py-4 md:py-5  px-2 ${
                 pathname === link.path ? "text-primary font-bold" : "text-black"
               } before:block before:absolute before:w-full before:h-[50%] before:bg-blue-600/10 before:top-[50%] before:left-0 before:translate-y-[-50%] before:rounded before:scale-0 before:hover:scale-100 before:transition`}
             >
               {link.text}
-              {pathname === link.path && (
-                <span
-                  // layoutId="nav-underline"
-
-                  className="nav-underline absolute w-6 h-[10%] rounded-full bg-primary bottom-1 left-[50%] -translate-x-[50%] blur-md -z-20"
+              {i === underline.position && (
+                <motion.span
+                  layoutId="nav-underline"
+                  className="nav-underline absolute w-full h-1 rounded-full bg-primary -bottom-[1px] left-0"
                 />
               )}
             </Link>
