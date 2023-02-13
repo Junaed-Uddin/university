@@ -4,6 +4,7 @@ import apply from "../../../public/assets/images/career/apply.jpg";
 import reward from "../../../public/assets/images/career/reward.jpg";
 import Card from "./Card/Card";
 import Event from "./Event/Event";
+import Swiper from "swiper";
 
 const InternationalStudents = () => {
     const internationalPrograms = [
@@ -67,12 +68,6 @@ const InternationalStudents = () => {
         },
         {
             id:5,
-            date: "13 feb",
-            time: "10:00- 15:00",
-            title: "spring fair"
-        },
-        {
-            id:6,
             date: "23 may",
             time: "10:00- 12:00",
             title: "international affiliation fair"
@@ -91,7 +86,7 @@ const InternationalStudents = () => {
                     {
                         internationalPrograms.map(program=><Card key={program.id} program={program}></Card>)
                     }
-                </div>
+                </div>  
             </div>
             <div className="w-1/2 mx-auto mt-4 md:mt-0 lg:w-1/4 bg-white p-8">
                     <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events</h2>
