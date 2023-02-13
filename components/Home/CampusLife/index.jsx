@@ -122,28 +122,28 @@ const CampusLife = () => {
           }}
           modules={[Autoplay]}
         >
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus1.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
               img3={`/assets/images/campus-life/campus3.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus4.jpg`}
               img2={`/assets/images/campus-life/campus5.jpg`}
               img3={`/assets/images/campus-life/campus6.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus7.jpg`}
               img2={`/assets/images/campus-life/campus8.jpg`}
               img3={`/assets/images/campus-life/campus2.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus6.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
