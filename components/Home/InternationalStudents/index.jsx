@@ -10,6 +10,8 @@ const InternationalStudents = () => {
     const internationalPrograms = [
         {
           id: 1,
+          category: "student's service",
+          color: "#00e676",
           heading: "dedicated residency",
           imageURL: opportunity,
           description:
@@ -18,6 +20,8 @@ const InternationalStudents = () => {
         },
         {
           id: 2,
+          category: "visa",
+          color: "#2196f3",
           heading: "easy to apply for PR",
           imageURL: apply,
           description:
@@ -26,6 +30,8 @@ const InternationalStudents = () => {
         },
         {
           id: 3,
+          category: "student's service",
+          color: "#ff9100",
           heading: "a better community support",
           imageURL: reward,
           description:
@@ -34,6 +40,8 @@ const InternationalStudents = () => {
         },
         {
             id: 4,
+            category: "student's service",
+            color: "#00e676",
             heading: "a better community support",
             imageURL: reward,
             description:
