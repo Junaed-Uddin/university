@@ -97,7 +97,9 @@ const InternationalStudents = () => {
                 </div>  
             </div>
             <div className="w-1/2 mx-auto mt-4 md:mt-0 lg:w-1/4 bg-white p-8">
-                    <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events</h2>
+                    <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events <span className="text-primary font-semibold text-lg flex gap-x-1 items-center cursor-pointer">view all <FaArrowRight/> 
+                    </span>
+                    </h2>
                     <div className="flex flex-col gap-y-4">
                         {
                             events.map(event=><Event key={event.id} event={event}></Event>)
