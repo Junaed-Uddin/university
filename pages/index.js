@@ -7,6 +7,7 @@ import InternationalStudents from "@/components/Home/InternationalStudents";
 import Programs from "@/components/Home/Programs";
 import Scholarship from "@/components/Home/Scholarship";
 import HeroSection from "@/components/Home/Hero";
+import NewsLetter from "@/components/Home/NewsLetter";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <InternationalStudents></InternationalStudents>
         <Programs></Programs>
         <Scholarship></Scholarship>
+        <NewsLetter></NewsLetter>
       </>
     </>
   );

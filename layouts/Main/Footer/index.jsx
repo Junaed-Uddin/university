@@ -3,6 +3,7 @@ import Links from "./Links";
 import LogoSection from "./LogoSection";
 import About from "./About";
 import Image from "next/image";
+import NewsLetter from "@/components/Home/NewsLetter";
 
 const Footer = () => {
   return (
