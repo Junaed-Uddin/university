@@ -7,7 +7,7 @@ import {SlBadge } from 'react-icons/sl';
 
 const Programs = () => {
     return (
-        <div className=" mt-10 bg-background   pb-10">
+        <div className=" mt-10 bg-background   pb-10 mx-3">
 
             <div>
                 <div className=" flex justify-center pt-10 ">
@@ -30,7 +30,7 @@ const Programs = () => {
                             </div>
                         </div>
                         <div className=" flex justify-center mb-6">
-                            <div className=" w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 ">
+                            <div className=" w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500 ">
 
                                 <BiTimer className=" text-white text-5xl bg-cyan-400 shadow-lg shadow-cyan-500/50 p-2 rounded-lg"></BiTimer>
                                 <h3 className=" mt-4 text-lg font-bold">Flexible Time</h3>
@@ -44,7 +44,7 @@ const Programs = () => {
                 <div className=" flex justify-center">
                     <div className=" grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
                         <>
-                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 ">
+                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
 
                                 <BsFillFileEarmarkArrowDownFill className=" text-white text-5xl bg-violet-400 shadow-lg shadow-violet-400 p-2 rounded-lg"></BsFillFileEarmarkArrowDownFill>
                                 <h3 className=" mt-4 text-lg font-bold">Access Any Where</h3>
@@ -53,7 +53,7 @@ const Programs = () => {
                             </div>
                         </>
                         <>
-                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 ">
+                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
 
                                 <BsLayersFill className=" text-white text-5xl bg-red-400 p-2 rounded-lg shadow-lg shadow-red-400"></BsLayersFill>
                                 <h3 className=" mt-4 text-lg font-bold">Organize Program</h3>
@@ -62,7 +62,7 @@ const Programs = () => {
                             </div>
                         </>
                         <>
-                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 ">
+                            <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
 
                                 <SlBadge className=" text-white text-5xl bg-amber-400 shadow-lg shadow-amber-400 p-2 rounded-lg"></SlBadge>
                                 <h3 className=" mt-4 text-lg font-bold">Certificate</h3>

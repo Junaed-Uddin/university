@@ -1,0 +1,31 @@
+
+.opt{
+    transition: 0.3s ease;
+}
+
+
+
+.optHover {
+	background-color: #cf2020;
+
+	box-shadow: 0 10px 20px rgba(233, 59, 59, 0.5);
+}
+.optHover:hover {
+	box-shadow: 0 10px 10px rgba(233, 23, 23, 0.4);
+	transform: translateY(4px);
+}
+.optHover:active {
+	box-shadow: 0 5px 5px rgba(59, 56, 55, 0.1);
+	transform: translateY(5px);
+}
+
+.textUnderline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, 0);
+    width: 66px;
+    height: 3px;
+    background: #1a68db;
+  }
