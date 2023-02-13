@@ -1,12 +1,6 @@
-import Programs from '@/components/Home/Programs';
-import React from 'react';
+import Programs from "@/components/Home/Programs";
+import React from "react";
 
-const PG = () => {
-    return (
-        <main className='main-wrapper'>
-            <Programs></Programs>
-        </main>
-    );
-};
+const PG = () => <Programs />;
 
 export default PG;

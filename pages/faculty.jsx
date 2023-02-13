@@ -1,12 +1,5 @@
-import Career from '@/components/Home/Career';
-import React from 'react';
+import Faculty from "@/components/Home/Faculty";
 
-const FL = () => {
-    return (
-        <main className='main-wrapper'>
-            <FL></FL>
-        </main>
-    );
-};
+const FL = () => <Faculty />;
 
 export default FL;

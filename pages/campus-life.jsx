@@ -1,12 +1,5 @@
-import CampusLife from '@/components/Home/CampusLife';
-import React from 'react';
+import CampusLife from "@/components/Home/CampusLife";
 
-const CL = () => {
-    return (
-        <main className='main-wrapper'>
-            <CampusLife></CampusLife>
-        </main>
-    );
-};
+const CL = () => <CampusLife />;
 
 export default CL;

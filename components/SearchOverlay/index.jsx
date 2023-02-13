@@ -31,7 +31,7 @@ const SearchOverlay = ({ open, onClose }) => {
             animate="visible"
             exit="hidden"
             onClick={onClose}
-            className="fixed flex justify-center items-center p-[1.5rem] w-full h-full top-0 left-0 bg-blue-900/30 backdrop-blur-sm"
+            className="fixed flex justify-center items-center p-[1.5rem] w-full h-full top-0 left-0 bg-blue-900/30 backdrop-blur-sm z-[1002]"
           >
             <motion.form
               variants={formVariants}
