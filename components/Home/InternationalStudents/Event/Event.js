@@ -12,7 +12,7 @@ const Event = ({ event }) => {
       </div>
       <div className="flex flex-col gap-y-2">
         <p className="capitalize text-2xl md:text-3xl">{title}</p>
-        <p className="text-gray-600">{time}</p>
+        <p className="text-gray-500 mt-2">{time}</p>
       </div>
     </div>
   );

@@ -20,17 +20,26 @@ const CampusLife = () => {
   };
 
   return (
-    <section className=" h-screen w-full py-5 bg-background grid grid-cols-1 lg:grid-cols-6 lg:px-9 lg:pt-20">
-      <div className="space-y-5 cursor-pointer ">
-        <h1 className="text-4xl text-gray-800 font-bold">Explore campus</h1>
-        <div className="space-y-2 lg:space-y-5">
+    <section className=" lg:h-screen w-full py-5 bg-background grid grid-cols-1 lg:grid-cols-6 lg:px-9 lg:pt-20">
+      <div className="space-y-0 lg:space-y-5 cursor-pointer  ">
+        <div className="space-y-3 pb-8 px-3 lg:p-0">
+          <h1 className="text-3xl lg:text-4xl text-gray-800 font-bold">
+            Explore campus
+          </h1>
+          <p className="text-sm lg:hidden">
+            Explore our Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </p>
+        </div>
+
+        {/* large screen Cards */}
+        <div className="hidden lg:block  lg:space-y-5 ">
           <div>
             <p
               id="clp1"
               onClick={() => handleCollapse('clp1')}
               className={`flex items-center text-xl ${
                 !isOpen && collapseId === 'clp1'
-                  ? 'pt-7   w-[320px] px-7 bg-white relative z-20'
+                  ? 'pt-7 w-full lg:w-[320px] px-7 bg-white relative z-20'
                   : ''
               }     `}
             >
@@ -39,7 +48,7 @@ const CampusLife = () => {
             <div
               className={` ${
                 !isOpen && collapseId === 'clp1' ? 'block' : 'hidden'
-              }  w-[320px] pb-8 px-8 leading-9 bg-white relative z-20 `}
+              } w-full lg:w-[320px] pb-8 px-8 leading-9 bg-white relative z-20 `}
             >
               <p className="">
                 The Buckeye heart of The Ohio State University, located right in
@@ -47,7 +56,6 @@ const CampusLife = () => {
               </p>
             </div>
           </div>
-
           <div>
             <p
               id="3"
@@ -96,14 +104,9 @@ const CampusLife = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-5 h-full">
-        {/* <div ref={prevRef} className="cursor-pointer">
-          Hello
-        </div>
-        <div ref={nextRef} className="cursor-pointer">
-          next
-        </div> */}
 
+      {/* slide Images */}
+      <div className="lg:col-span-5 h-full relative">
         <Swiper
           //   slidesPerView={'auto'}
           slidesPerView={1}
@@ -113,34 +116,34 @@ const CampusLife = () => {
             delay: 3200,
           }}
           breakpoints={{
-            640: {
+            800: {
               slidesPerView: 1.1,
             },
           }}
           modules={[Autoplay]}
         >
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus1.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
               img3={`/assets/images/campus-life/campus3.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus4.jpg`}
               img2={`/assets/images/campus-life/campus5.jpg`}
               img3={`/assets/images/campus-life/campus6.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus7.jpg`}
               img2={`/assets/images/campus-life/campus8.jpg`}
               img3={`/assets/images/campus-life/campus2.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-16">
+          <SwiperSlide className="lg:-mx-20">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus6.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
@@ -148,6 +151,24 @@ const CampusLife = () => {
             />
           </SwiperSlide>
         </Swiper>
+
+        {/* small screen cards */}
+        <div className="absolute -bottom-24 left-4 z-20 block lg:hidden w-11/12  bg-white p-5 text-center shadow-xl ">
+          <p className="text-lg font-semibold pb-2">
+            Explore Three different quadrangle
+          </p>
+          <ul className="list-none space-y-1">
+            <li>
+              <p>Columbus - The Biggest quadrangle</p>
+            </li>
+            <li>
+              <p>Lima - The Oldest and Greatest</p>
+            </li>
+            <li>
+              <p>Anderson - New and Most Advance</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );

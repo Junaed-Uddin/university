@@ -28,7 +28,7 @@ const Alumni = () => {
               Global Alumni Events
               <span className={`${styles.textUnderline}`}></span>
             </h2>
-            <p className={`font-body ${styles.alumniText} text-lg sm:text-xl mt-7 md:max-w-[500px]`}>
+            <p className={`${styles.alumniText} text-lg sm:text-xl mt-7 md:max-w-[500px]`}>
               From virtual to in-person, the Alumni Office organizes
               exclusive events throughout the year and around the world.
               You can find also find information on University wide events.
