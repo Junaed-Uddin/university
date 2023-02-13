@@ -45,7 +45,7 @@ function MenuDrawer({ open, onClose }) {
           animate="visible"
           exit="hidden"
           onClick={onClose}
-          className="fixed top-0 left-0 w-full h-full flex flex-col p-2 bg-slate-900/30 z-40"
+          className="fixed top-0 left-0 w-full h-full flex flex-col p-2 bg-slate-900/30 z-[1001]"
         >
           <motion.nav
             variants={bgVariants}
@@ -70,7 +70,11 @@ function MenuDrawer({ open, onClose }) {
                     : ""
                 }`}
               >
-                <Link href={link.path} className="px-3 py-1 w-full">
+                <Link
+                  href={link.path}
+                  className="px-3 py-1 w-full flex gap-5 items-center"
+                >
+                  {link.icon}
                   {link.text}
                 </Link>
               </motion.span>

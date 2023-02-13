@@ -1,0 +1,15 @@
+.imgHover {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.imgHover img {
+    transition: 0.5s all ease-in-out;
+}
+
+.imgHover:hover img {
+  transform: scale(1.5);
+}
