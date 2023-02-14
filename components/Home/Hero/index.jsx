@@ -23,14 +23,14 @@ function HeroSection() {
       <Swiper slidesPerView={1} className="w-full" effect="fade">
         <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  p-6">
           <img
-            src="/assets/images/hero/1.jpg"
+            src="/assets/images/hero/campus.jpg"
             alt="Hero 1"
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">KingStar has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+          <h2 className="text-2xl mb-2 px-14 font-bold">SummerField has more than</h2>
+          <h1 className="text-7xl mb-8 px-16 font-black">180 Majors & Minors</h1>
+          <button className="relative mx-14 capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
           </button>
         </SwiperSlide>
@@ -42,7 +42,7 @@ function HeroSection() {
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">KingStar has more than</h2>
+          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
           <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
           <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
@@ -51,7 +51,7 @@ function HeroSection() {
       </Swiper>
       {/* <div className="w-full flex h-[calc(100vh-113px)] bg-[url(/assets/images/hero/1.jpg)] bg-no-repeat bg-center bg-cover">
         <div className="w-full h-full bg-gradient-to-r from-blue-900/50 to-black/50 flex  text-white flex-col justify-center  p-6">
-          <h2 className="text-2xl mb-2 font-bold">KingStar has more than</h2>
+          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
           <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
           <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour

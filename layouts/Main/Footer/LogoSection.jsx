@@ -8,7 +8,7 @@ function LogoSection() {
         className="flex flex-col sm:items-center lg:items-start mb-2"
       >
         <div className="font-bold text-4xl">
-          <span className="text-blue-400">KingStar</span>
+          <span className="text-blue-400">SummerField</span>
           <span className="text-white"> University</span>
         </div>
         <em className="text-sm not-italic uppercase tracking-wide">

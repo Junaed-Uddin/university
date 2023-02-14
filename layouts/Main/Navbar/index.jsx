@@ -49,7 +49,7 @@ const Navbar = () => {
         id="navbar"
       >
         <Link href="/" className="text-2xl font-bold mr-auto">
-          <span className="text-primary">KingStar</span>
+          <span className="text-primary">SummerField</span>
           <span> University</span>
         </Link>
 

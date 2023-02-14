@@ -20,7 +20,7 @@ const CampusLife = () => {
   };
 
   return (
-    <section className=" lg:h-screen w-full py-5 bg-background grid grid-cols-1 lg:grid-cols-6 lg:px-9 lg:pt-20">
+    <section className=" lg:h-full w-full py-5 bg-background grid grid-cols-1 lg:grid-cols-6 lg:px-9 lg:pt-20 mb-20 lg:mb-0">
       <div className="space-y-0 lg:space-y-5 cursor-pointer  ">
         <div className="space-y-3 pb-8 px-3 lg:p-0">
           <h1 className="text-3xl lg:text-4xl text-gray-800 font-bold">

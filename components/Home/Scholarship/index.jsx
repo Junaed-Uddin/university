@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Scholarship = () => {
     return (
-        <div className="pb-5">
+        <div className="pb-5 px-5">
             <div className=" pb-12">
                 <h2 className=" font-bold text-3xl text-txt-primary py-10 flex gap-4 pb-4">
                     <FaUserGraduate />
@@ -14,54 +14,74 @@ const Scholarship = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
-                            Kingsters Scholarships
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
+                            Peace Ambassador Scholarship
                         </h2>
                         <p className="pb-5">
-                            Kingster University offers a variety of scholar
-                            ships and fellowships designed to help you and your
-                            family pay for university. Scholarships and grants
-                            are types of gift.
+                            Applications are now open for the European
+                            Commission Peace Ambassador Scholarship. This
+                            scholarship will be given to students aged 18 to 30
+                            years from more than 190 countries of the world
+                            including Bangladesh. Scholarship students under
+                            this program will have the opportunity to
+                            participate in The One Young World Summit to be held
+                            in Manchester
                         </p>
-                        <Link href="" className="flex items-center gap-2">
+                        <Link
+                            href=""
+                            className="flex items-center gap-2 text-primary font-semibold"
+                        >
                             Read More{" "}
                             <HiOutlineArrowNarrowRight className="text-xl" />
                         </Link>
                     </div>
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
-                            Federal Grant Programs
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
+                            Commonwealth Scholarship
                         </h2>
                         <p className="pb-5">
-                            Kingster University offers a variety of scholar
-                            ships and fellowships designed to help you and your
-                            family pay for university. Scholarships and grants
-                            are types of gift.
+                            The Commonwealth offers scholarships. Generally,
+                            Commonwealth Scholarships allow students from low-
+                            and middle-income countries to study Master on
+                            scholarships at various UK universities. The
+                            Commonwealth Scholarship for Masters is funded by
+                            the UK Department for International Development
+                            (DFID).
                         </p>
-                        <Link href="" className="flex items-center gap-2">
+                        <Link
+                            href=""
+                            className="flex items-center gap-2 text-primary font-semibold"
+                        >
                             Read More{" "}
                             <HiOutlineArrowNarrowRight className="text-xl" />
                         </Link>
                     </div>
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
-                            State Scholarships
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
+                            Fulbright Scholarship
                         </h2>
                         <p className="pb-5">
-                            Kingster University offers a variety of scholar
-                            ships and fellowships designed to help you and your
-                            family pay for university. Scholarships and grants
-                            are types of gift.
+                            A prestigious scholarship for higher education in
+                            the United States is the Fulbright Foreign Student
+                            Program. Through various selection processes, those
+                            selected for this scholarship are given all the
+                            necessary expenses, starting from the study fee at
+                            the university of the United States, including the
+                            accommodation, food, and transportation of the
+                            students.
                         </p>
-                        <Link href="" className="flex items-center gap-2">
+                        <Link
+                            href=""
+                            className="flex items-center gap-2 text-primary font-semibold"
+                        >
                             Read More{" "}
                             <HiOutlineArrowNarrowRight className="text-xl" />
                         </Link>
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="mr-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="mr-0 lg:mr-5">
                     <div className="border-b-2 border-txt-secondary pb-4">
                         <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                             Requirements
@@ -76,24 +96,15 @@ const Scholarship = () => {
                                 <span className=" text-lg mt-1 text-txt-secondary">
                                     <FaRegDotCircle />
                                 </span>
-                                <p>
-                                    You are a full-time student (at least 12
-                                    points).
-                                </p>
-                            </li>
-                            <li className="flex gap-4 pb-4">
-                                <span className=" text-lg mt-1 text-txt-secondary">
-                                    <FaRegDotCircle />
-                                </span>
-                                <p>You applied for financial aid on time.</p>
+                                <p>You must be an international student.</p>
                             </li>
                             <li className="flex gap-4 pb-4">
                                 <span className=" text-lg mt-1 text-txt-secondary">
                                     <FaRegDotCircle />
                                 </span>
                                 <p>
-                                    You are meeting the Satisfactory Academic
-                                    Progress standards.
+                                    The minimum score required for the IELTS is
+                                    7.0.
                                 </p>
                             </li>
                             <li className="flex gap-4 pb-4">
@@ -101,8 +112,17 @@ const Scholarship = () => {
                                     <FaRegDotCircle />
                                 </span>
                                 <p>
-                                    You have approximately the same amount of
-                                    financial need that you had in prior years.
+                                    Must be an international student and not
+                                    previously nominated for this scholarship.
+                                </p>
+                            </li>
+                            <li className="flex gap-4 pb-4">
+                                <span className=" text-lg mt-1 text-txt-secondary">
+                                    <FaRegDotCircle />
+                                </span>
+                                <p>
+                                    Must have leadership ability and social work
+                                    experience is preferred.
                                 </p>
                             </li>
                         </ul>
@@ -111,20 +131,21 @@ const Scholarship = () => {
                         <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                             Guidance and Advice
                         </h2>
-                        <p className=" text-xl pb-6">
-                            Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean. A
-                            small river named Duden flows by their place and
-                            supplies it with the necessary regelialia. It is a
-                            paradisematic country, in which roasted parts of
-                            sentences fly into your mouth. Even the all-powerful
-                            Pointing has no control about the blind texts it is
-                            an almost unorthographic life.
+                        <p className=" text-lg pb-6">
+                            To apply for our scholarship you need to fill out
+                            the form. Besides, an essay on the related subject
+                            and other materials have to be submitted. Again, the
+                            requirements to apply for a private scholarship
+                            depend on our institution. For this reason, the
+                            application eligibility and other necessary matters
+                            should be read carefully. It should be confirmed
+                            whether the applicant fulfills all those
+                            qualifications.
                         </p>
                     </div>
                 </div>
-                <div className="ml-5 relative">
-                    <div className=" border-b-2 border-txt-secondary pt-16 pl-10 bg-gray-200">
+                <div className="ml-0 lg:ml-5 relative">
+                    <div className="pt-5 pl-0 lg:pt-16 lg:pl-10">
                         <Image
                             src={scholarship}
                             alt="alumni-association"
@@ -133,18 +154,18 @@ const Scholarship = () => {
                             height="100%"
                             className="px-5"
                         />
-                        <div className="pt-10">
+                        <div className="pt-10 px-5 border-b-2 border-txt-secondary">
                             <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                                 Featured Student (Scholarship)
                             </h2>
-                            <p className=" text-xl pb-6">
-                                Far far away, behind the word mountains,
-                                far.there live the blind texts. Separated they
-                                live in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean. A small river
-                                named Duden flows by their place and supplies it
-                                with the necessary regelialia. It is a
-                                paradisematic.
+                            <p className=" text-lg pb-6">
+                                After the applicant finds the scholarship
+                                according to his/her eligibility, he/she should
+                                pay attention to what documents and subjects are
+                                required to apply. It is best to make a list of
+                                the scholarships that the applicant is eligible
+                                for, the application deadlines, and the
+                                application requirements.
                             </p>
                         </div>
                     </div>
