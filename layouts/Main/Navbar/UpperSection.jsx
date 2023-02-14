@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BiPhoneCall } from "react-icons/bi";
 import { MdOutlineEmail as MailIcon } from "react-icons/md";
 
 const UpperSection = () => {
@@ -9,13 +10,21 @@ const UpperSection = () => {
     <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1400px)/2))] bg-primary text-blue-200">
       <div className="flex gap-2 justify-between">
         {/* left content */}
-        <a
-          href="mailto:example@domain.com"
-          className="flex gap-2 items-center hover:text-white"
-        >
-          <MailIcon size={22} />
-          <span>example@domain.com</span>
-        </a>
+        <div className="md:flex justify-start gap-5 hidden">
+          <a
+            href="mailto:summer@field.com"
+            className="flex gap-2 items-center hover:text-white"
+          >
+            <MailIcon size={22} />
+            <span>summer@field.com</span>
+          </a>
+          <p
+            className="flex gap-2 items-center hover:text-white"
+          >
+            <BiPhoneCall size={22} />
+            <span>+5-8435-8255-632</span>
+          </p>
+        </div>
         {/* Right part */}
         <div className="flex gap-3">
           <Link
