@@ -1,6 +1,7 @@
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker, HiOutlineMail } from "react-icons/hi";
 import styles from "../../../styles/alumni.module.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
     
@@ -27,7 +28,11 @@ const Contact = () => {
                     Contact Us
                     <span className={`${styles.textUnderline}`}></span>
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-white mt-14">
+                <motion.div
+                initial={{ x: '100vw'}}
+                animate={{x: 0}}
+                transition={{type: 'spring', delay: 0.5}}
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-white mt-14">
                     <div className="bg-blue-600 py-6 hover:scale-105 duration-1000 hover:mt-[-10px]">
                         <FaPhoneAlt className="w-12 h-10 mx-auto" />
                         <p className="text-[20px] mt-6">+88017********</p>
@@ -40,7 +45,7 @@ const Contact = () => {
                     <FaMapMarkerAlt className="w-12 h-12 mx-auto" />
                         <p className="text-[20px] mt-6">B-234, Sector-1, Uttora, Dhaka</p>
                     </div>
-                </div>
+                </motion.div>
             </div>
             {/* form section  */}
             <div className="mt-14">
