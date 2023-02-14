@@ -10,12 +10,24 @@ import {
   BsInfoCircle as AboutIcon,
 } from "react-icons/bs";
 import { GiLifeBar as CampusLifeIcon } from "react-icons/gi";
+import Link from "next/link";
+import styles from "@/styles/navbar.module.css";
 
 const links = [
   {
     path: "/",
     text: "Home",
     icon: <HomeIcon />,
+    child: (
+      <div className={styles.dropdown}>
+        <Link href="" className={styles.link}>
+          Homepage 1
+        </Link>
+        <Link href="" className={styles.link}>
+          Homepage 2
+        </Link>
+      </div>
+    ),
   },
   {
     path: "/pages",

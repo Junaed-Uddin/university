@@ -73,6 +73,7 @@ const Navbar = () => {
                   className="nav-underline absolute w-full h-1 rounded-full bg-primary -bottom-[1px] left-0"
                 />
               )}
+              {link?.child}
             </Link>
           ))}
         </nav>

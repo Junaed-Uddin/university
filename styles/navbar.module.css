@@ -1,0 +1,7 @@
+.dropdown {
+  @apply flex flex-col bg-paper absolute bottom-0 left-0;
+}
+
+.dropdow > .link {
+  @apply px-3 py-2;
+}
