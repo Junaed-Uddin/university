@@ -1,7 +1,7 @@
 import styles from "@/styles/faculty.module.css";
 const Faculty = () => {
     return (
-        <div className=" text-center bg-background p-10 mb-5">
+        <div className=" text-center bg-background sm:p-10 mb-5">
             <p>EVERYTHING YOU NEED</p>
             <div className="relative">
                 <h2 className={`text-4xl text-txt-primary text-center font-bold relative`}>

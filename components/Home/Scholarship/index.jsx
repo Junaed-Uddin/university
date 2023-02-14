@@ -131,7 +131,7 @@ const Scholarship = () => {
                         <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                             Guidance and Advice
                         </h2>
-                        <p className=" text-xl pb-6">
+                        <p className=" text-lg pb-6">
                             To apply for our scholarship you need to fill out
                             the form. Besides, an essay on the related subject
                             and other materials have to be submitted. Again, the
@@ -158,7 +158,7 @@ const Scholarship = () => {
                             <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                                 Featured Student (Scholarship)
                             </h2>
-                            <p className=" text-xl pb-6">
+                            <p className=" text-lg pb-6">
                                 After the applicant finds the scholarship
                                 according to his/her eligibility, he/she should
                                 pay attention to what documents and subjects are
