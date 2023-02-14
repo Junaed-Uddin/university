@@ -19,7 +19,7 @@ const links = [
     text: "Home",
     icon: <HomeIcon />,
     child: (
-      <div className={styles.dropdown}>
+      <div className={styles.dropdown + " group-hover:flex"}>
         <Link href="" className={styles.link}>
           Homepage 1
         </Link>
