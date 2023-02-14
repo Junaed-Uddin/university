@@ -20,7 +20,7 @@ const Contact = () => {
             <div className='text-center text-white mb-12'>
                 <h1 className='text-3xl text-white font-semibold uppercase mb-12'>Contact Us</h1>
                 <p>Phone: +88017********</p>
-                <p>Email: <span className='text-blue-300'>kingstaruniversity@gmail.com</span></p>
+                <p>Email: <span className='text-blue-300'>SummerFielduniversity@gmail.com</span></p>
                 <p>Address: B-234, Sector-1, Uttora, Dhaka</p>
             </div>
             {/* form section  */}
