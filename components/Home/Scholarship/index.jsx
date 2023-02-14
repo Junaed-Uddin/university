@@ -14,7 +14,7 @@ const Scholarship = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
                             Peace Ambassador Scholarship
                         </h2>
                         <p className="pb-5">
@@ -36,7 +36,7 @@ const Scholarship = () => {
                         </Link>
                     </div>
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
                             Commonwealth Scholarship
                         </h2>
                         <p className="pb-5">
@@ -57,7 +57,7 @@ const Scholarship = () => {
                         </Link>
                     </div>
                     <div>
-                        <h2 className=" text-txt-secondary text-lg font-semibold pb-5">
+                        <h2 className=" text-primary text-lg font-semibold pb-5">
                             Fulbright Scholarship
                         </h2>
                         <p className="pb-5">
@@ -144,7 +144,7 @@ const Scholarship = () => {
                         </p>
                     </div>
                 </div>
-                <div className="ml-0 lg:ml-5 relative mehedi">
+                <div className="ml-0 lg:ml-5 relative">
                     <div className="pt-5 pl-0 lg:pt-16 lg:pl-10">
                         <Image
                             src={scholarship}
