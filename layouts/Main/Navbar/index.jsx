@@ -78,6 +78,11 @@ const Navbar = () => {
                   className="nav-underline absolute w-full h-1 rounded-full bg-primary -bottom-[1px] left-0"
                 />
               )}
+              {/* <div className="">
+                <Link href="/">Home 1</Link>
+                <Link href="/">Home 2</Link>
+                <Link href="/">Home 3</Link>
+              </div> */}
               {/* {link?.child} */}
               {/* <DropdownMenu links={[{ path: "", text: "Home 1" }]} /> */}
               {/* {typeof window !== "undefined" && (
