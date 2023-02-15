@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -10,12 +12,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      serif: ["Poppins"],
-      display: ['"Russo One"', '"Josefin Sans"'],
-      body: ["Poppins"],
-    },
     extend: {
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+        display: [
+          '"Russo One"',
+          '"Josefin Sans"',
+          ...defaultTheme.fontFamily.display,
+        ],
+        body: ["Poppins", ...defaultTheme.fontFamily.body],
+      },
       colors: {
         primary: "#1B2945",
         "primary-hover": "#2772e3",
