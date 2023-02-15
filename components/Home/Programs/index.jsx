@@ -8,7 +8,7 @@ import styles from "@/styles/program.module.css";
 
 const Programs = () => {
   return (
-    <div className=" py-14 mt-4 bg-gray-200 mx-3">
+    <div className=" py-14 mt-4  mx-3">
       <div className="relative">
         <h2
           className={`text-4xl text-txt-primary text-center font-bold relative`}
