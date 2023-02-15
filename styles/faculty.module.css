@@ -6,12 +6,13 @@
 
 
 .optHover {
-	background-color: #1a68db;
+	background-color: rgb(27, 41, 69);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-	box-shadow: 0 10px 20px rgba(50, 75, 216, 0.5);
+	/* box-shadow: 0 10px 20px rgba(87, 103, 199, 0.5); */
 }
 .optHover:hover {
-	box-shadow: 0 10px 10px rgba(23, 44, 233, 0.4);
+	box-shadow: 0 10px 10px rgba(28, 44, 187, 0.4);
 	transform: translateY(4px);
 }
 .optHover:active {
@@ -27,7 +28,7 @@
     transform: translate(-50%, 0);
     width: 66px;
     height: 3px;
-    background: #1a68db;
+    background: rgb(27, 41, 69);
   }
 
   .imgShadow{

@@ -38,7 +38,7 @@ const Programs = () => {
                     I was design to assist users with a wide range of texts and
                     answer questions to the best of my ability
                   </p>
-                  <button className=" p-3 mt-3 bg-blue-500 shadow-lg shadow-blue-400 text-white rounded-lg">
+                  <button className=" p-3 mt-3 bg-indigo-900 shadow-lg shadow-blue-400 text-white rounded-lg">
                     Start Chat
                   </button>
                 </div>
