@@ -8,12 +8,12 @@ const Scholarship = () => {
     return (
         <div className="pb-5 px-5">
             <div className=" pb-12">
-                <h2 className=" font-bold text-3xl text-txt-primary py-10 flex gap-4 pb-4">
+                <h2 className=" font-bold text-3xl text-txt-primary py-10 flex gap-4 pb-6">
                     <FaUserGraduate />
                     Scholarships Sources
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                    <div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div className=" shadow-xl p-7 border-b-4 border-primary">
                         <h2 className=" text-primary text-lg font-semibold pb-5">
                             Peace Ambassador Scholarship
                         </h2>
@@ -35,7 +35,7 @@ const Scholarship = () => {
                             <HiOutlineArrowNarrowRight className="text-xl" />
                         </Link>
                     </div>
-                    <div>
+                    <div className=" shadow-xl p-7 border-b-4 border-primary">
                         <h2 className=" text-primary text-lg font-semibold pb-5">
                             Commonwealth Scholarship
                         </h2>
@@ -56,7 +56,7 @@ const Scholarship = () => {
                             <HiOutlineArrowNarrowRight className="text-xl" />
                         </Link>
                     </div>
-                    <div>
+                    <div className=" shadow-xl p-7 border-b-4 border-primary">
                         <h2 className=" text-primary text-lg font-semibold pb-5">
                             Fulbright Scholarship
                         </h2>
@@ -86,7 +86,7 @@ const Scholarship = () => {
                         <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                             Requirements
                         </h2>
-                        <p className=" text-xl text-txt-secondary pb-6">
+                        <p className=" text-xl text-primary pb-6">
                             Far far away, behind the word mountains, far from
                             the countries Vokalia and Consonantia, there live
                             the blind texts. Separated they live in
@@ -125,13 +125,40 @@ const Scholarship = () => {
                                     experience is preferred.
                                 </p>
                             </li>
+                            <li className="flex gap-4 pb-4">
+                                <span className=" text-lg mt-1 text-txt-secondary">
+                                    <FaRegDotCircle />
+                                </span>
+                                <p>
+                                    A CGPA of less than 3.5 in the previous
+                                    semester will not apply.
+                                </p>
+                            </li>
+                            <li className="flex gap-4 pb-4">
+                                <span className=" text-lg mt-1 text-txt-secondary">
+                                    <FaRegDotCircle />
+                                </span>
+                                <p>
+                                    Must have leadership ability and social work
+                                    experience is preferred.
+                                </p>
+                            </li>
+                            <li className="flex gap-4 pb-4">
+                                <span className=" text-lg mt-1 text-txt-secondary">
+                                    <FaRegDotCircle />
+                                </span>
+                                <p>
+                                    Must have leadership ability and social work
+                                    experience is preferred.
+                                </p>
+                            </li>
                         </ul>
                     </div>
                     <div className="pt-10">
                         <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                             Guidance and Advice
                         </h2>
-                        <p className=" text-lg pb-6">
+                        <p className=" text-[17px] pb-6">
                             To apply for our scholarship you need to fill out
                             the form. Besides, an essay on the related subject
                             and other materials have to be submitted. Again, the
@@ -158,7 +185,7 @@ const Scholarship = () => {
                             <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
                                 Featured Student (Scholarship)
                             </h2>
-                            <p className=" text-lg pb-6">
+                            <p className=" text-[17px] pb-6">
                                 After the applicant finds the scholarship
                                 according to his/her eligibility, he/she should
                                 pay attention to what documents and subjects are
