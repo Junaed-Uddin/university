@@ -26,15 +26,15 @@ const Programs = () => {
 
             <div>
                 <div className=" flex justify-center pt-10 ">
-                    <div className="  grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-5 ">
+                    <div className="  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 ">
                         <div className=" lg:col-span-2 pb-10">
-                            <div className=" grid lg:grid-cols-2 md:grid-cols-2 max-w-[660px] gap-3  h-60 shadow-2xl p-3 rounded-lg bg-white ">
+                            <div className=" grid lg:grid-cols-2  max-w-[660px] gap-3  h-60 shadow-2xl p-3 rounded-lg bg-white ">
                                 <div className=" pl-3 ">
                                     <h1 className=" text-3xl font-bold pt-3">Start Chat with Us</h1>
                                     <p className=" pt-2 text-sm">I was design to assist users with a wide range of texts and answer questions to the best of my ability</p>
                                     <button className=" p-3 mt-3 bg-blue-500 shadow-lg shadow-blue-400 text-white rounded-lg">Start Chat</button>
                                 </div>
-                                <div className=" flex justify-center p-6  ml-2 lg:visible  md:visible invisible">
+                                <div className=" flex justify-center p-6  ml-2 lg:visible   invisible">
                                     <Image
                                         src={chose}
                                         alt=''
@@ -57,7 +57,7 @@ const Programs = () => {
                 </div>
 
                 <div className=" flex justify-center">
-                    <div className=" grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+                    <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">
                         <>
                             <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
 

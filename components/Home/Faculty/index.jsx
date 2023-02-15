@@ -15,14 +15,14 @@ const Faculty = () => {
             <div className=" flex justify-center mt-6">
 
                 <div className="grid  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1    gap-7 ">
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>CSE</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>EEE</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>CIVIL</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>ENGLISH</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>DBA</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>LIBRARY</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>LAW</button>
-                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-72 p-3 `}>MECHANICS</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>CSE</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>EEE</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>CIVIL</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>ENGLISH</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>DBA</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>LIBRARY</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>LAW</button>
+                    <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>MECHANICS</button>
 
                 </div>
 
