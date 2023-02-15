@@ -5,23 +5,23 @@ import {
 } from "react-icons/fa";
 import { MdSportsTennis as SportIcon } from "react-icons/md";
 import { TbSocial as SocialIcon } from "react-icons/tb";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 
-const slideVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-};
+// const slideVariants = {
+//   hidden: { opacity: 0 },
+//   visible: { opacity: 1 },
+// };
 
-const elVariants = {
-  hidden: { x: -100, opacity: 0 },
-  visible: { x: 0, opacity: 1 },
-};
+// const elVariants = {
+//   hidden: { x: -100, opacity: 0 },
+//   visible: { x: 0, opacity: 1 },
+// };
 
 function HeroSection() {
   return (
     <section>
       <Swiper slidesPerView={1} className="w-full" effect="fade">
-        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  p-6">
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
           <img
             src="/assets/images/hero/campus.jpg"
             alt="Hero 1"
@@ -39,7 +39,7 @@ function HeroSection() {
           </button>
         </SwiperSlide>
 
-        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  p-6">
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
           <img
             src="/assets/images/hero/1.jpg"
             alt="Hero 1"

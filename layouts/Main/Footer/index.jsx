@@ -15,7 +15,7 @@ const Footer = () => {
       />
       <div className="absolute w-full h-full object-cover -z-[9] bg-blue-900/10 backdrop-blur-sm" />
       <NewsLetter />
-      <div className="relative px-[max(1.5rem,calc((100vw-1400px)/2))] pb-2 pt-8 grid grid-cols-12 bg-no-repeat bg-cover bg-center border-t-[2px] border-[rgba(255,255,255,0.15)] text-[rgba(255,255,255,0.90)] ">
+      <div className="relative gip pb-2 pt-8 grid grid-cols-12 bg-no-repeat bg-cover bg-center border-t-[2px] border-[rgba(255,255,255,0.15)] text-[rgba(255,255,255,0.90)] ">
         <LogoSection />
         <About />
         <Links />

@@ -7,8 +7,10 @@ import { useRef, useState } from 'react';
 import Image from 'next/image';
 
 const CampusLife = () => {
+  const [isDefaultOpen, setIsDefaultOpen] = useState(false); //default collapse State
   const [isOpen, setIsOpen] = useState(false); //collapse State
   const [collapseId, setCollapseId] = useState('clp1'); //collapse State
+
   // const swiper = useSwiper();
   // const prevRef = useRef(null);    // custom navigation refs
   // const nextRef = useRef(null);
@@ -37,22 +39,23 @@ const CampusLife = () => {
             <p
               id="clp1"
               onClick={() => handleCollapse('clp1')}
-              className={`flex items-center text-xl ${
+              className={`flex items-center text-primary font-semibold text-xl ${
                 !isOpen && collapseId === 'clp1'
                   ? 'pt-7 w-full lg:w-[320px] px-7 bg-white relative z-20'
                   : ''
               }     `}
             >
-              <MdNavigateNext className="text-primary text-2xl" /> Columbus
+              <MdNavigateNext className="text-primary text-2xl" /> Faculty of
+              Arts
             </p>
             <div
               className={` ${
                 !isOpen && collapseId === 'clp1' ? 'block' : 'hidden'
-              } w-full lg:w-[320px] pb-8 px-8 leading-9 bg-white relative z-20 `}
+              } w-full lg:w-[320px] pb-8 px-8 text-sm leading-7 bg-white relative z-20 pt-2`}
             >
               <p className="">
-                The Buckeye heart of The Ohio State University, located right in
-                the heart of Ohio
+                This is the Faculty where you can find from Law and Literary
+                Studies to Journalism and Hotel Management.
               </p>
             </div>
           </div>
@@ -60,45 +63,46 @@ const CampusLife = () => {
             <p
               id="3"
               onClick={() => handleCollapse('clp3')}
-              className={`flex items-center text-xl ${
+              className={`flex items-center text-primary font-semibold text-xl ${
                 isOpen && collapseId === 'clp3'
                   ? 'pt-7  w-full lg:w-[320px] px-7 bg-white relative z-20'
                   : ''
               }     `}
             >
-              <MdNavigateNext className="text-primary text-2xl" /> Lima
+              <MdNavigateNext className="text-primary text-2xl" /> Our library
             </p>
             <div
               className={` ${
                 isOpen && collapseId === 'clp3' ? 'block' : 'hidden'
-              }  w-full lg:w-[320px] pb-8 px-8 leading-9 bg-white relative z-20 `}
+              } w-full lg:w-[320px] pb-8 px-8 text-sm leading-7 bg-white relative z-20 pt-2 `}
             >
               <p className="">
-                Developing leaders with the resources and strength of the
-                state’s top university
+                We have one of the richest and oldest library Of our country
+                more than 1000 students can enjoy their time hare together
               </p>
             </div>
           </div>
+
           <div>
             <p
-              id="clp2"
+              id="2"
               onClick={() => handleCollapse('clp2')}
-              className={`flex items-center text-xl ${
-                isOpen && collapseId === 'clp2'
-                  ? 'pt-7   w-full lg:w-[320px] px-7 bg-white relative z-20'
+              className={`flex items-center text-primary font-semibold text-xl ${
+                !isOpen && collapseId === 'clp2'
+                  ? 'pt-7  w-full lg:w-[320px] px-7 bg-white relative z-20'
                   : ''
               }     `}
             >
-              <MdNavigateNext className="text-primary text-2xl" /> Anderson
+              <MdNavigateNext className="text-primary text-2xl" /> Acquisition
             </p>
             <div
               className={` ${
-                isOpen && collapseId === 'clp2' ? 'block' : 'hidden'
-              } w-full lg:w-[320px] pb-8 px-8 leading-9 bg-white relative z-20 `}
+                !isOpen && collapseId === 'clp2' ? 'block' : 'hidden'
+              } w-full lg:w-[320px] pb-8 px-8 text-sm leading-7 bg-white relative z-20 pt-2 `}
             >
               <p className="">
-                The Buckeye heart of The Ohio State University, located right in
-                the heart of Ohio
+                A journey of every document in the Library to reach its readers
+                starts from the acquition section
               </p>
             </div>
           </div>
@@ -122,28 +126,28 @@ const CampusLife = () => {
           }}
           modules={[Autoplay]}
         >
-          <SwiperSlide className="lg:-mx-20">
+          <SwiperSlide className="">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus1.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
               img3={`/assets/images/campus-life/campus3.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-20">
+          <SwiperSlide className="">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus4.jpg`}
               img2={`/assets/images/campus-life/campus5.jpg`}
               img3={`/assets/images/campus-life/campus6.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-20">
+          <SwiperSlide className="">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus7.jpg`}
               img2={`/assets/images/campus-life/campus8.jpg`}
               img3={`/assets/images/campus-life/campus2.jpg`}
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:-mx-20">
+          <SwiperSlide className="">
             <PhotoGrid
               img1={`/assets/images/campus-life/campus6.jpg`}
               img2={`/assets/images/campus-life/campus2.jpg`}
