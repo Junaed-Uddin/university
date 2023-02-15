@@ -31,3 +31,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Global Inline padding */
+.gip {
+  padding-inline: max(2.5rem, calc((100vw - 1400px) / 2));
+}
+.gim {
+  margin-inline: max(2.5rem, calc((100vw - 1400px) / 2));
+}

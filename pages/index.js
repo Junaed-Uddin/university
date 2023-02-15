@@ -20,13 +20,15 @@ export default function Home() {
       </Head>
       <>
         <HeroSection />
-        <Alumni></Alumni>
-        <CampusLife></CampusLife>
-        <Career></Career>
-        <Faculty></Faculty>
-        <InternationalStudents></InternationalStudents>
-        <Programs></Programs>
-        <Scholarship></Scholarship>
+        <main className="!max-w-[1440px]  flex flex-col gap-6 mx-auto min-h-[calc(100vh-300px)]">
+          <Alumni></Alumni>
+          <CampusLife></CampusLife>
+          <Career></Career>
+          <Faculty></Faculty>
+          <InternationalStudents></InternationalStudents>
+          <Programs></Programs>
+          <Scholarship></Scholarship>
+        </main>
       </>
     </>
   );

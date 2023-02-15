@@ -1,0 +1,14 @@
+.main-link {
+  @apply relative py-4 md:py-5  px-2 before:block before:absolute before:w-full before:h-[50%] before:bg-blue-600/10 before:top-[50%] before:left-0 before:translate-y-[-50%] before:rounded before:scale-0 before:hover:scale-100 before:transition;
+}
+
+.dropdown {
+  @apply absolute hidden flex-col gap-1 bg-paper  top-[100%] left-0 z-20 p-2 w-fit rounded shadow-md shadow-blue-700/20;
+}
+
+.dropdown > .link {
+  @apply px-3 py-1 w-[150px] font-normal text-black rounded;
+}
+.dropdown > .link:hover {
+  @apply bg-primary/10;
+}

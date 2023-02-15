@@ -7,7 +7,7 @@ const UpperSection = () => {
     /*
      * DON'T TRY TO ADD ANY MARGIN, PADDING OR MAX-WIDTH CLASS TO THE GLOBAL WRAPPER
      */
-    <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1400px)/2))] bg-primary text-blue-200">
+    <section className="hidden sm:block px-[max(1.5rem,calc((100vw-1400px)/2))] bg-primary text-gray-200 py-2">
       <div className="flex gap-2 justify-between">
         {/* left content */}
         <div className="md:flex justify-start gap-5 hidden">
@@ -47,7 +47,7 @@ const UpperSection = () => {
           </Link>
           <Link
             href="/support-ku"
-            className="p-3 text-white bg-secondary hover:bg-secondary-hover"
+            className="p-3 text-white bg-amber-500 hover:bg-amber-600"
           >
             Support KU
           </Link>
