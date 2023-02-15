@@ -15,12 +15,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
-        display: [
-          '"Russo One"',
-          '"Josefin Sans"',
-          ...defaultTheme.fontFamily.display,
-        ],
-        body: ["Poppins", ...defaultTheme.fontFamily.body],
+        display: ['"Russo One"', '"Josefin Sans"'],
+        body: ["Poppins"],
       },
       colors: {
         primary: "#1B2945",
