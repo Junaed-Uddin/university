@@ -3,7 +3,7 @@ import React from 'react';
 
 const PhotoGrid = ({ img1, img2, img3 }) => {
   return (
-    <div className="w-full lg:w-11/12  min-h-[300px] lg:min-h-[500px] grid grid-rows-1 lg:grid-rows-2 grid-cols-1 lg:grid-cols-3 gap-3">
+    <div className="w-full lg:w-full  min-h-[300px] lg:min-h-[500px] grid grid-rows-1 lg:grid-rows-2 grid-cols-1 lg:grid-cols-3 gap-3">
       <div className=" row-span-2 col-span-2 relative group">
         <Image
           src={img1}
