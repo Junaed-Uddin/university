@@ -13,8 +13,8 @@ const PhotoGrid = ({ img1, img2, img3 }) => {
           objectFit="cover"
           className="w-full h-full cursor-pointer lg:h-[510px] "
         />
-        <div className="bg-white w-full lg:w-[70%] absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
-          <p className="text-gray-900 text-sm cursor-pointer">
+        <div className="bg-black/30 backdrop-blur-md  w-full lg:w-[45%] absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
+          <p className="text-white font-semibold text-sm cursor-pointer">
             A popular study spot is creatively illuminated at the Chemical and
             Biomolecular Engineering and Chemistry building.
           </p>
@@ -29,8 +29,8 @@ const PhotoGrid = ({ img1, img2, img3 }) => {
           objectFit="cover"
           className="w-full h-full cursor-pointer"
         />
-        <div className="bg-white w-full  absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
-          <p className="text-gray-900 text-sm cursor-pointer">
+        <div className="bg-black/30 backdrop-blur-md  absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
+          <p className="text-white font-semibold  text-sm cursor-pointer">
             A popular study spot is creatively illuminated at the Chemical.
           </p>
         </div>
@@ -44,8 +44,8 @@ const PhotoGrid = ({ img1, img2, img3 }) => {
           className="w-full h-full cursor-pointer"
           objectFit="cover"
         />
-        <div className="bg-white w-full  absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
-          <p className="text-gray-900 text-sm cursor-pointer">
+        <div className="bg-black/30 backdrop-blur-md  absolute bottom-0 right-0 p-4 opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100">
+          <p className="text-white font-semibold  text-sm cursor-pointer">
             A popular study spot is creatively illuminated at the Chemical.
           </p>
         </div>
