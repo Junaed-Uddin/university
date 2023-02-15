@@ -50,7 +50,7 @@ const Navbar = () => {
     <>
       <UpperSection />
       <header
-        className="px-[max(1.5rem,calc((100vw-1400px)/2))] py-2 lg:py-0 border-b-[1px] border-b-ol-default flex gap-2 items-center bg-paper sticky top-0 left-0 z-[1000]"
+        className="px-[max(1.5rem,calc((100vw-1400px)/2))] py-2 lg:py-2.5 border-b-[1px] border-b-ol-default flex gap-2 items-center bg-paper sticky top-0 left-0 z-[1000]"
         id="navbar"
       >
         <Link href="/" className="text-2xl font-bold mr-auto">
