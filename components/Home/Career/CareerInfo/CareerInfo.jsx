@@ -17,8 +17,8 @@ const CareerInfo = ({ careerInfo }) => {
       </div>
       <div className="mt-10 w-full text-center max-w-[350px]">
         <h2 className="text-2xl font-bold mb-3">{heading}</h2>
-        <p className="mb-3 h-20">{description}</p>
-        <div className="flex justify-center items-center">
+        <p className="mb-3 sm:h-20">{description}</p>
+        <div className="flex justify-center items-center mb-5 sm:mb-0">
           <button className="flex justify-center items-center text-primary font-semibold mt-2">
             <span>{buttonName}</span>
             <HiArrowSmRight></HiArrowSmRight>

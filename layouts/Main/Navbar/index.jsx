@@ -8,7 +8,12 @@ import SearchOverlay from "@/components/SearchOverlay";
 import { MdMenu } from "react-icons/md";
 import MenuDrawer from "./MenuDrawer";
 import links from "./links";
+import styles from "@/styles/navbar.module.css";
+import dynamic from "next/dynamic";
 
+const DropdownMenu = dynamic(() => import("./Dropdown"), {
+  loading: () => "Loading...",
+});
 const Navbar = () => {
   const [underline, setUnderline] = useState({
     position: 0,
@@ -62,7 +67,7 @@ const Navbar = () => {
               onMouseEnter={() => handleLinkMouseEnter(i)}
               onMouseLeave={handleLinkMouseLeave}
               onClick={() => handleLinkClick(i)}
-              className={`relative py-4 md:py-5  px-2 ${
+              className={`group relative py-4 md:py-6  px-2 ${
                 pathname === link.path ? "text-primary font-bold" : "text-black"
               } before:block before:absolute before:w-full before:h-[50%] before:bg-blue-600/10 before:top-[50%] before:left-0 before:translate-y-[-50%] before:rounded before:scale-0 before:hover:scale-100 before:transition`}
             >
@@ -73,6 +78,18 @@ const Navbar = () => {
                   className="nav-underline absolute w-full h-1 rounded-full bg-primary -bottom-[1px] left-0"
                 />
               )}
+              {/* {link?.child} */}
+              {/* <DropdownMenu links={[{ path: "", text: "Home 1" }]} /> */}
+              {/* {typeof window !== "undefined" && (
+                <div className={styles.dropdown + " group-hover:flex"}>
+                  <Link href="" className={styles.link}>
+                    Homepage 1
+                  </Link>
+                  <Link href="" className={styles.link}>
+                    Homepage 2
+                  </Link>
+                </div>
+              )} */}
             </Link>
           ))}
         </nav>

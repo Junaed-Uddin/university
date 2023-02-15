@@ -23,14 +23,18 @@ function HeroSection() {
       <Swiper slidesPerView={1} className="w-full" effect="fade">
         <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  p-6">
           <img
-            src="/assets/images/hero/1.jpg"
+            src="/assets/images/hero/campus.jpg"
             alt="Hero 1"
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+          <h2 className="text-xl lg:text-2xl mb-2 px-8 xl:px-14 font-bold">
+            SummerField has more than
+          </h2>
+          <h1 className="text-4xl xl:text-7xl mb-8 px-8 xl:px-16 font-black">
+            180 Majors & Minors
+          </h1>
+          <button className="relative mx-8 xl:mx-14 capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
           </button>
         </SwiperSlide>
@@ -58,7 +62,7 @@ function HeroSection() {
           </button>
         </div>
       </div> */}
-      <div className="relative w-[calc(100%-48px)] mx-auto bg-white/70 backdrop-blur border -translate-y-[60px] z-10 shadow-lg shadow-blue-600/20 rounded-lg grid sm:grid-cols-2 xl:grid-cols-4 px-10 py-4 md:py-10 gap-10 ">
+      <div className="relative w-80% xl:w-[calc(1300px)] mx-6 xl:mx-auto bg-paper border -translate-y-[60px] z-10 shadow-lg shadow-blue-600/20 rounded-lg grid sm:grid-cols-2 xl:grid-cols-4 px-10 py-4 md:py-10 gap-10 ">
         {/* University Life */}
         <div className="flex gap-5">
           <UniversityIcon size={60} className="text-blue-500" />
