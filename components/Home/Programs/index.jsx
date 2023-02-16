@@ -47,7 +47,7 @@ const Programs = () => {
                 </div>
               </div>
             </div>
-            <div className=" flex justify-center mb-6">
+            <div className=" flex justify-center">
               <div className=" w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500 ">
                 <FaUserGraduate className=" text-white text-5xl bg-cyan-400 shadow-lg shadow-cyan-500/50 p-2 rounded-lg"></FaUserGraduate>
                 <h3 className=" mt-4 text-lg font-bold">Graduate Education</h3>
@@ -63,7 +63,7 @@ const Programs = () => {
           <div className=" grid lg:grid-cols-3 sm:grid-cols-1 gap-6"> */}
 
 
-            <div className=" flex justify-center mb-6">
+            <div className=" flex justify-center ">
               <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
                 <GiArchiveResearch className=" text-white text-5xl bg-violet-400 shadow-lg shadow-violet-400 p-2 rounded-lg"></GiArchiveResearch>
                 <h3 className=" mt-4 text-lg font-bold">Research</h3>
@@ -77,7 +77,7 @@ const Programs = () => {
 
 
 
-            <div className=" flex justify-center mb-6">
+            <div className=" flex justify-center ">
               <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
                 <GiTeacher className=" text-white text-5xl bg-red-400 p-2 rounded-lg shadow-lg shadow-red-400"></GiTeacher>
                 <h3 className=" mt-4 text-lg font-bold">
@@ -91,7 +91,7 @@ const Programs = () => {
 
 
 
-            <div className=" flex justify-center mb-6">
+            <div className=" flex justify-center ">
               <div className="  w-80 h-60 rounded-lg  backdrop-blur-xl bg-white/50 p-8 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:shadow-xl ease-in-out duration-500">
                 <GiRank3 className=" text-white text-5xl bg-amber-400 shadow-lg shadow-amber-400 p-2 rounded-lg"></GiRank3>
                 <h3 className=" mt-4 text-lg font-bold">Rankings</h3>
