@@ -52,30 +52,8 @@ const InternationalStudents = () => {
             "You'll be able to access a range of benefits and rewards to support every stage of your career and life.",
           buttonName: "Learn More",
         },
-        {
-            id: 4,
-            author: "nick jonas",
-            date: "23 march 2023",
-            category: "student's service",
-            color: "#00e676",
-            heading: "a better community support",
-            imageURL: reward,
-            description:
-              "You'll be able to access a range of benefits and rewards to support every stage of your career and life.",
-            buttonName: "Learn More",
-          },
-          {
-            id: 5,
-            author: "nick jonas",
-            date: "23 march 2023",
-            category: "student's service",
-            color: "#2196f3",
-            heading: "dedicated residency",
-            imageURL: opportunity,
-            description:
-              "UniCamp is right for you? We seek people committed to excellence and driven to make the world a better place.",
-            buttonName: "Learn More",
-          },
+       
+          
       ];
       const events = [
         {
