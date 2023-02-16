@@ -142,7 +142,7 @@ const CampusLife = () => {
           </SwiperSlide>
           <SwiperSlide className="">
             <PhotoGrid
-              img1={`/assets/images/campus-life/campus7.jpg`}
+              img1={`/assets/images/campus-life/campus3.jpg`}
               img2={`/assets/images/campus-life/campus8.jpg`}
               img3={`/assets/images/campus-life/campus2.jpg`}
             />

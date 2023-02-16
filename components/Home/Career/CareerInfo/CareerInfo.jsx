@@ -15,11 +15,11 @@ const CareerInfo = ({ careerInfo }) => {
           quality={100}
         />
       </div>
-      <div className="mt-10 w-full text-center max-w-[350px]">
-        <h2 className="text-2xl font-bold mb-3">{heading}</h2>
+      <div className="mt-10 w-full text-center max-w-[350px] mb-5 lg:mb-0">
+        <h2 className="text-2xl font-bold mb-3 text-primary">{heading}</h2>
         <p className="mb-3 sm:h-20">{description}</p>
-        <div className="flex justify-center items-center mb-5 sm:mb-0">
-          <button className="flex justify-center items-center text-primary font-semibold mt-2">
+        <div className="flex justify-center items-center mt-2">
+          <button className="flex justify-center items-center text-primary font-semibold ">
             <span>{buttonName}</span>
             <HiArrowSmRight></HiArrowSmRight>
           </button>

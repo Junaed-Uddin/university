@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Alumni from "@/components/Home/Alumni";
-import CampusLife from "@/components/Home/CampusLife";
-import Career from "@/components/Home/Career";
-import Faculty from "@/components/Home/Faculty";
-import InternationalStudents from "@/components/Home/InternationalStudents";
-import Programs from "@/components/Home/Programs";
-import Scholarship from "@/components/Home/Scholarship";
-import HeroSection from "@/components/Home/Hero";
-import NewsLetter from "@/components/Home/NewsLetter";
-import "swiper/css";
-import "swiper/css/navigation";
+import Head from 'next/head';
+import Alumni from '@/components/Home/Alumni';
+import CampusLife from '@/components/Home/CampusLife';
+import Career from '@/components/Home/Career';
+import Faculty from '@/components/Home/Faculty';
+import InternationalStudents from '@/components/Home/InternationalStudents';
+import Programs from '@/components/Home/Programs';
+import Scholarship from '@/components/Home/Scholarship';
+import HeroSection from '@/components/Home/Hero';
+import NewsLetter from '@/components/Home/NewsLetter';
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 export default function Home() {
   return (

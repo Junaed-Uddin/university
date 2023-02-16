@@ -21,6 +21,7 @@ function HeroSection() {
         }}
         navigation={true}
         modules={[Autoplay, Navigation, EffectFade]} slidesPerView={1} className="w-full" effect="fade">
+        
         <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
           <img
             src="/assets/images/hero/campus.jpg"
@@ -28,10 +29,10 @@ function HeroSection() {
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
+          <h2 className="text-lg sm:text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
           The Best University of the state
           </h2>
-          <h1 className="text-4xl xl:text-6xl mb-8 font-black">
+          <h1 className="text-2xl sm:text-4xl xl:text-6xl mb-8 font-black">
             SummerField University
           </h1>
           <button className="relative capitalize text-xl text-primary font-semibold bg-white px-7 py-2.5 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-secondary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
@@ -39,47 +40,61 @@ function HeroSection() {
           </button>
         </SwiperSlide>
 
-        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
           <img
             src="/assets/images/hero/graduate.jpg"
             alt="Hero 1"
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+          <h2 className="text-lg sm:text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
+          SummerField has more than
+          </h2>
+          <h1 className="text-2xl sm:text-4xl xl:text-6xl mb-8 font-black">
+            180 Majors and Minors
+          </h1>
+          <button className="relative capitalize text-xl text-primary font-semibold bg-white px-7 py-2.5 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-secondary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
           </button>
         </SwiperSlide>
 
-        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
-          <img
-            src="/assets/images/hero/library.jpg"
-            alt="Hero 1"
-            className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
-          />
-          <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
-            Take a tour
-          </button>
-        </SwiperSlide>
-
-        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
           <img
             src="/assets/images/hero/study.jpg"
             alt="Hero 1"
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+          <h2 className="text-lg sm:text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
+          Creative Scholarship
+          </h2>
+          <h1 className="text-2xl sm:text-4xl xl:text-6xl mb-8 font-black">
+            SummerField Resources
+          </h1>
+          <button className="relative capitalize text-xl text-primary font-semibold bg-white px-7 py-2.5 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-secondary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
           </button>
         </SwiperSlide>
+
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
+          <img
+            src="/assets/images/hero/library.jpg"
+            alt="Hero 1"
+            className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
+          />
+          <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
+          <h2 className="text-lg sm:text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
+          Research Instruction Services
+          </h2>
+          <h1 className="text-2xl sm:text-4xl xl:text-6xl mb-8 font-black">
+            SummerField Library
+          </h1>
+          <button className="relative capitalize text-xl text-primary font-semibold bg-white px-7 py-2.5 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-secondary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+            Take a tour
+          </button>
+        </SwiperSlide>
+
+       
       </Swiper>
 
       <div className="relative w-80% xl:w-[calc(1300px)] mx-6 xl:mx-auto bg-paper border -translate-y-[60px] z-10 shadow-lg shadow-blue-600/20 rounded-lg grid sm:grid-cols-2 xl:grid-cols-4 px-10 py-4 md:py-10 gap-10 ">
