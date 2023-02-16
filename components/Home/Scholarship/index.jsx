@@ -88,16 +88,13 @@ const Scholarship = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 pt-14">
                 <div className="mr-0 lg:mr-5">
                     <div className="pb-4">
-                        <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
-                            Requirements
-                        </h2>
                         <p className=" text-xl text-primary pb-6">
-                            Far far away, behind the word mountains, far from
-                            the countries Vokalia and Consonantia, there live
-                            the blind texts. Separated they live in
+                            We offer our scholarships to selected students. You
+                            have to fulfill certain conditions to get our
+                            scholarship. Below are some conditions.
                         </p>
                         <div>
                             <Accordion title="What kind of student should you be?">
