@@ -11,7 +11,7 @@ const Career = () => {
       heading: "Current Opportunities",
       imageURL: opportunity,
       description:
-        "UniCamp is right for you? We seek people committed to excellence and driven to make the world a better place.",
+        "SummerField is right for you? We seek people committed to excellence and driven to make the world a better place.",
       buttonName: "Learn More",
     },
     {
@@ -19,7 +19,7 @@ const Career = () => {
       heading: "Applying with US",
       imageURL: apply,
       description:
-        "You’ve come to the right place. Learn about our application process here.",
+        "Our partnerships with world renowned universities enable you to transfer abroad seamlessly.",
       buttonName: "Learn More",
     },
     {
@@ -33,10 +33,10 @@ const Career = () => {
   ];
 
   return (
-    <section className="mb-10 mt-10 sm:mt-14 gip">
+    <section className="mb-10 mt-6 gip">
       <div className="relative">
         <h2
-          className={`text-4xl text-txt-primary text-center font-display font-bold relative`}
+          className={`text-4xl text-txt-primary text-center font-bold relative`}
         >
           Carrier
           <span className={`${styles.textUnderline}`}></span>
