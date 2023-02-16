@@ -96,7 +96,7 @@ const Programs = () => {
                 <GiRank3 className=" text-white text-5xl bg-amber-400 shadow-lg shadow-amber-400 p-2 rounded-lg"></GiRank3>
                 <h3 className=" mt-4 text-lg font-bold">Rankings</h3>
                 <p className=" mt-3 text-sm">
-                  We made top 5 in last year.{" "}<a className=" text-blue-500  cursor-pointer">see more</a>
+                  We made top 2 in last year and to 10 in South East Asia{" "}<a className=" text-blue-500  cursor-pointer">see more</a>
                 </p>
               </div>
             </div>
