@@ -33,7 +33,7 @@ const Career = () => {
   ];
 
   return (
-    <section className="mb-10 mt-10 sm:mt-14">
+    <section className="mb-10 mt-10 sm:mt-14 gip">
       <div className="relative">
         <h2
           className={`text-4xl text-txt-primary text-center font-display font-bold relative`}

@@ -5,22 +5,22 @@ import {
 } from "react-icons/fa";
 import { MdSportsTennis as SportIcon } from "react-icons/md";
 import { TbSocial as SocialIcon } from "react-icons/tb";
-// import { motion, AnimatePresence } from "framer-motion";
-
-// const slideVariants = {
-//   hidden: { opacity: 0 },
-//   visible: { opacity: 1 },
-// };
-
-// const elVariants = {
-//   hidden: { x: -100, opacity: 0 },
-//   visible: { x: 0, opacity: 1 },
-// };
+import { Autoplay, Navigation, EffectFade } from "swiper";
 
 function HeroSection() {
   return (
     <section>
-      <Swiper slidesPerView={1} className="w-full" effect="fade">
+      <Swiper spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Navigation, EffectFade]} slidesPerView={1} className="w-full" effect="fade">
         <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center gip">
           <img
             src="/assets/images/hero/campus.jpg"
@@ -28,20 +28,48 @@ function HeroSection() {
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
           <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
-          <h2 className="text-xl lg:text-2xl mb-2 px-8 xl:px-14 font-bold">
-            SummerField has more than
+          <h2 className="text-xl tracking-widest lg:text-3xl mb-2 py-2 font-bold">
+          The Best University of the state
           </h2>
-          <h1 className="text-4xl xl:text-7xl mb-8 px-8 xl:px-16 font-black">
-            180 Majors & Minors
+          <h1 className="text-4xl xl:text-6xl mb-8 font-black">
+            SummerField University
           </h1>
-          <button className="relative mx-8 xl:mx-14 capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+          <button className="relative capitalize text-xl text-primary font-semibold bg-white px-7 py-2.5 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-secondary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
             Take a tour
           </button>
         </SwiperSlide>
 
         <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
           <img
-            src="/assets/images/hero/1.jpg"
+            src="/assets/images/hero/graduate.jpg"
+            alt="Hero 1"
+            className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
+          />
+          <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
+          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
+          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
+          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+            Take a tour
+          </button>
+        </SwiperSlide>
+
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
+          <img
+            src="/assets/images/hero/library.jpg"
+            alt="Hero 1"
+            className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
+          />
+          <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-blue-900/50 to-black/50 -z-[1]" />
+          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
+          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
+          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
+            Take a tour
+          </button>
+        </SwiperSlide>
+
+        <SwiperSlide className="relative w-full min-h-[calc(100vh-113px)] -z-10 h-full bg-gradient-to-r from-blue-900/50 to-black/50 !flex text-white flex-col justify-center  gip">
+          <img
+            src="/assets/images/hero/study.jpg"
             alt="Hero 1"
             className="absolute w-full h-full object-cover top-0 left-0 -z-[2]"
           />
@@ -53,48 +81,40 @@ function HeroSection() {
           </button>
         </SwiperSlide>
       </Swiper>
-      {/* <div className="w-full flex h-[calc(100vh-113px)] bg-[url(/assets/images/hero/1.jpg)] bg-no-repeat bg-center bg-cover">
-        <div className="w-full h-full bg-gradient-to-r from-blue-900/50 to-black/50 flex  text-white flex-col justify-center  p-6">
-          <h2 className="text-2xl mb-2 font-bold">SummerField has more than</h2>
-          <h1 className="text-6xl mb-8 font-black">180 Majors & Minors</h1>
-          <button className="relative capitalize text-xl text-primary bg-white px-5 py-2 w-fit after:content-[''] after:absolute after:w-2 after:h-full after:bg-primary after:top-0 after:left-0 after:transition-[width] hover:after:w-full after:-z-[1] hover:text-white z-10 transition">
-            Take a tour
-          </button>
-        </div>
-      </div> */}
+
       <div className="relative w-80% xl:w-[calc(1300px)] mx-6 xl:mx-auto bg-paper border -translate-y-[60px] z-10 shadow-lg shadow-blue-600/20 rounded-lg grid sm:grid-cols-2 xl:grid-cols-4 px-10 py-4 md:py-10 gap-10 ">
         {/* University Life */}
         <div className="flex gap-5">
-          <UniversityIcon size={60} className="text-blue-500" />
+          <UniversityIcon size={60} className="text-gray-500" />
           <div>
-            <p className="text-2xl text-primary uppercase font-semibold">
+            <p className="text-xl text-primary font-semibold pb-2">
               University Life
             </p>
-            <p className="text-txt-secondary">Overall in here</p>
+            <p className="text-txt-disable">Overall in here</p>
           </div>
         </div>
         {/* Graduation */}
         <div className="flex gap-5">
-          <GraduateIcon size={60} className="text-blue-500" />
+          <GraduateIcon size={60} className="text-gray-500" />
           <div>
-            <p className="text-2xl text-primary">Graduation</p>
-            <p className="text-txt-secondary">Getting Diploma</p>
+            <p className="text-xl text-primary font-semibold pb-2">Graduation</p>
+            <p className="text-txt-disable">Getting Diploma</p>
           </div>
         </div>
         {/* University Life */}
         <div className="flex gap-5">
-          <SportIcon size={60} className="text-blue-500" />
+          <SportIcon size={60} className="text-gray-500" />
           <div>
-            <p className="text-2xl text-primary">Athletics</p>
-            <p className="text-txt-secondary">Sport Clubs</p>
+            <p className="text-xl text-primary font-semibold pb-2">Athletics</p>
+            <p className="text-txt-disable">Sport Clubs</p>
           </div>
         </div>
         {/* University Life */}
         <div className="flex gap-5">
-          <SocialIcon size={60} className="text-blue-500" />
+          <SocialIcon size={60} className="text-gray-500" />
           <div>
-            <p className="text-2xl text-primary">Social</p>
-            <p className="text-txt-secondary">Overall in here</p>
+            <p className="text-xl text-primary font-semibold pb-2">Social</p>
+            <p className="text-txt-disable">Overall in here</p>
           </div>
         </div>
       </div>

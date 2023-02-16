@@ -5,7 +5,7 @@ const NewsLetter = () => {
   return (
     <section className="mt-10">
       <div className=" h-72 flex flex-col justify-center items-center ">
-        <h2 className="text-4xl font-body text-center max-w-[400px] leading-snug text-on-secondary font-bold">
+        <h2 className="text-4xl text-center max-w-[400px] leading-snug text-on-secondary font-bold">
           Get the latest news delivered to you inbox
         </h2>
         <div className="flex justify-center items-center w-full mt-5">

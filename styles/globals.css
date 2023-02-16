@@ -34,8 +34,8 @@ a {
 
 /* Global Inline padding */
 .gip {
-  padding-inline: max(2.5rem, calc((100vw - 1400px) / 2));
+  padding-inline: max(2.5rem, calc((100vw - 1300px) / 2)) !important;
 }
 .gim {
-  margin-inline: max(2.5rem, calc((100vw - 1400px) / 2));
+  margin-inline: max(2.5rem, calc((100vw - 1300px) / 2)) !important;
 }

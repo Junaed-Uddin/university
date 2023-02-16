@@ -3,17 +3,18 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { FaRegDotCircle, FaUserGraduate } from "react-icons/fa";
 import scholarship from "../../../public/assets/images/scholarship/scholarship.jpg";
 import Image from "next/image";
+import styles from "../../../styles/scholarship.module.css";
 
 const Scholarship = () => {
   return (
-    <div className="pb-5 px-5">
+    <div className="pb-5 px-5 gip">
       <div className=" pb-12">
         <h2 className=" font-bold text-3xl text-txt-primary py-10 flex gap-4 pb-6">
           <FaUserGraduate />
           Scholarships Sources
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className=" shadow-xl p-7 border-b-4 border-primary">
+          <div className={`shadow-xl hover:shadow-blue-500/30 hover:shadow-2xl transition-all p-7 ${styles.modifyBorder}`}>
             <h2 className=" text-primary text-lg font-semibold pb-5">
               Peace Ambassador Scholarship
             </h2>
@@ -32,7 +33,7 @@ const Scholarship = () => {
               Read More <HiOutlineArrowNarrowRight className="text-xl" />
             </Link>
           </div>
-          <div className=" shadow-xl p-7 border-b-4 border-primary">
+          <div className={`shadow-xl p-7 hover:shadow-blue-500/30 hover:shadow-2xl transition-all ${styles.modifyBorder}`}>
             <h2 className=" text-primary text-lg font-semibold pb-5">
               Commonwealth Scholarship
             </h2>
@@ -50,7 +51,7 @@ const Scholarship = () => {
               Read More <HiOutlineArrowNarrowRight className="text-xl" />
             </Link>
           </div>
-          <div className=" shadow-xl p-7 border-b-4 border-primary">
+          <div className={`shadow-xl hover:shadow-blue-500/30 hover:shadow-2xl transition-all p-7 ${styles.modifyBorder}`}>
             <h2 className=" text-primary text-lg font-semibold pb-5">
               Fulbright Scholarship
             </h2>
