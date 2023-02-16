@@ -101,30 +101,51 @@ const Scholarship = () => {
                         </p>
                         <div>
                             <Accordion title="What kind of student should you be?">
-                                <p>You must be an international student.</p>
+                                <p>
+                                    You must be an international student. You
+                                    must provide your national identity card at
+                                    the embassy. Also, you have to provide your
+                                    resume.
+                                </p>
                             </Accordion>
                             <Accordion title="How many scores should I have in IELTS?">
                                 <p>
-                                    The minimum score required for the IELTS is
-                                    7.0.
+                                    Generally, a band score of at least 6 is
+                                    required for admission to a university or
+                                    college, while a band score of 7 or above is
+                                    often required for postgraduate studies. But
+                                    in our University, your mast the minimum
+                                    score required for the IELTS is 7.0.
                                 </p>
                             </Accordion>
                             <Accordion title="Have you get any scholarships before?">
                                 <p>
                                     Must be an international student and not
                                     previously nominated for this scholarship.
+                                    If you have received any scholarship before
+                                    then this scholarship is not for you. We
+                                    offer a one-time scholarship to a student.
+                                    We offer scholarships to as many students as
+                                    possible.
                                 </p>
                             </Accordion>
                             <Accordion title="Do you do social work?">
                                 <p>
-                                    Must have leadership ability and social work
-                                    experience is preferred.
+                                    Social work is very important for our
+                                    scholarship. We want our students to be
+                                    leaders in social work. Preference will be
+                                    given to those who have worked with
+                                    environment and animals.
                                 </p>
                             </Accordion>
                             <Accordion title="What was your score in the previous semester?">
                                 <p>
                                     A CGPA of less than 3.5 in the previous
-                                    semester will not apply.
+                                    semester will not apply. We give importance
+                                    to the CGPA of our students. We want our
+                                    students to continue their studies alongside
+                                    social work. But CGPA will not matter much
+                                    if you have some special qualities.
                                 </p>
                             </Accordion>
                         </div>
