@@ -28,7 +28,7 @@ const Programs = () => {
       <div>
         <div className=" flex justify-center pt-10 ">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 ">
-            <div className=" lg:col-span-2 md:col-span-2 pb-10">
+            <div className=" lg:col-span-2 md:col-span-2 ">
               <div className=" grid lg:grid-cols-2 md:grid-cols-2 max-w-[680px] gap-3  h-60 shadow-2xl p-3 rounded-lg bg-white ">
                 <div className=" pl-7 pt-3">
                   <h1 className=" text-3xl font-bold pt-3">
