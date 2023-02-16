@@ -58,11 +58,11 @@ const Navbar = () => {
     <>
       <UpperSection />
       <header
-        className="gip border-b-[1px] border-b-ol-default flex items-center bg-paper sticky top-0 left-0 z-[1000]"
+        className="gip border-b-[1px] py-2 border-b-ol-default flex items-center bg-paper sticky top-0 left-0 z-[1000]"
         id="navbar"
       >
         <div className="flex justify-start">
-          <Image alt="logo" src={logo} className="w-20 sm:w-24 object-cover"></Image>
+          <Image alt="logo" src={logo} className="w-20 scale-105 sm:w-24 h-20"></Image>
         </div>
         <Link
           href="/"

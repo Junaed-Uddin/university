@@ -7,7 +7,7 @@ function LogoSection() {
     <div className="col-start-1 col-end-13 lg:col-end-5 xl:col-end-6 flex flex-col w-full sm:items-center lg:items-start md:pr-4">
       <div className="flex justify-center items-center">
         <Image
-          className="w-28"
+          className="w-24 scale-110 h-20"
           src={logo}
           alt="university logo"
           quality={100}
@@ -24,7 +24,7 @@ function LogoSection() {
           </em>
         </Link>
       </div>
-      <p className="sm:text-center tracking-normal leading-relaxed lg:text-left max-w-[500px] mt-4 mb-6">
+      <p className="sm:text-center tracking-wide leading-relaxed lg:text-left max-w-[510px] mt-4 mb-6">
         SummerField transforms lives through accessible, student-centered,
         high-quality education and meets learners’ needs for a lifetime.
       </p>

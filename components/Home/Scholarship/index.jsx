@@ -148,25 +148,9 @@ const Scholarship = () => {
                             </Accordion>
                         </div>
                     </div>
-                    <div className="pt-10">
-                        <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
-                            Guidance and Advice
-                        </h2>
-                        <p className=" text-[17px] pb-6">
-                            To apply for our scholarship you need to fill out
-                            the form. Besides, an essay on the related subject
-                            and other materials have to be submitted. Again, the
-                            requirements to apply for a private scholarship
-                            depend on our institution. For this reason, the
-                            application eligibility and other necessary matters
-                            should be read carefully. It should be confirmed
-                            whether the applicant fulfills all those
-                            qualifications.
-                        </p>
-                    </div>
                 </div>
                 <div className="ml-0 lg:ml-5 relative">
-                    <div className="pt-5 pl-0 lg:pt-16 lg:pl-10">
+                    <div className="pt-5 pl-0 lg:pt-16 lg:pl-3">
                         <Image
                             src={scholarship}
                             alt="alumni-association"
@@ -175,20 +159,6 @@ const Scholarship = () => {
                             height="100%"
                             className="px-5"
                         />
-                        <div className="pt-10 px-5 border-b-2 border-txt-secondary">
-                            <h2 className=" text-2xl font-semibold text-txt-primary pb-8">
-                                Featured Student (Scholarship)
-                            </h2>
-                            <p className=" text-[17px] pb-6">
-                                After the applicant finds the scholarship
-                                according to his/her eligibility, he/she should
-                                pay attention to what documents and subjects are
-                                required to apply. It is best to make a list of
-                                the scholarships that the applicant is eligible
-                                for, the application deadlines, and the
-                                application requirements.
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>

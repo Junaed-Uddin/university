@@ -4,7 +4,7 @@ const Faculty = () => {
         <div className=" text-center bg-background gip sm:pt-10 mb-5">
             <p>EVERYTHING YOU NEED</p>
             <div className="relative py-2">
-                <h2 className={`text-4xl text-txt-primary text-center font-bold relative`}>
+                <h2 className={`text-4xl text-primary text-center font-bold relative`}>
                     Faculty Resource
                     <span className={`${styles.textUnderline}`}></span>
                 </h2>

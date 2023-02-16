@@ -16,22 +16,22 @@ function ContactSection() {
       <p>Ohio 43521</p>
 
       {/* Social Section */}
-      <div className="flex items-center gap-2 text-2xl my-3">
+      <div className="flex items-center gap-2 text-2xl my-3.5">
         <Link
           href=""
-          className=" rounded-md hover:bg-primary/20 hover:text-primary transition"
+          className="rounded-md hover:bg-primary/20 hover:text-blue-300 transition"
         >
           <FbIcon />
         </Link>
         <Link
           href=""
-          className="p-2 rounded-md hover:bg-primary/20 hover:text-primary transition"
+          className="px-3 rounded-md hover:bg-primary/20 hover:text-blue-300 transition"
         >
           <TwitterIcon />
         </Link>
         <Link
           href=""
-          className="p-2 rounded-md hover:bg-primary/20 hover:text-primary transition"
+          className="rounded-md hover:bg-primary/20 hover:text-blue-300 transition"
         >
           <InstaIcon />
         </Link>
