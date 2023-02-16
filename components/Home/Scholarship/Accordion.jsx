@@ -8,12 +8,16 @@ function Accordion({ title, children }) {
             <div
                 className={`${
                     isOpen === true
-                        ? "border border-gray-500 mb-5 rounded-lg"
+                        ? "mb-5 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                         : ""
                 } `}
             >
                 <button
-                    className="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-900 bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 border border-gray-700 mb-5"
+                    className={`${
+                        isOpen === false
+                            ? "flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-900 bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] mb-7"
+                            : "flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-900 bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 mb-7"
+                    }`}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     <span className="font-semibold text-sm">{title}</span>
