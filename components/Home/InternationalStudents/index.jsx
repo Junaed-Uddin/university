@@ -5,6 +5,7 @@ import reward from "../../../public/assets/images/career/reward.jpg";
 import Card from "./Card/Card";
 import Event from "./Event/Event";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import  "../../../styles/internationalStudents.module.css"
 import SwiperCore, {Autoplay, navigation, pagination} from "swiper"
 
 // Import Swiper styles
@@ -117,30 +118,17 @@ const InternationalStudents = () => {
                     view all <FaArrowRight/>
                     </p>
                 </div>
-                < >
-                    <Swiper
-                    spaceBetween={20}
-                    slidesPerView={3}
-                    loop={true}
-                    autoplay={{
-                      delay: 2000
-                    }}
-                    navigation={{clickable:true}}
-                    pagination={{ clickable: true }}
+                <div className="grid swiper-container grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                     
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
-                    >
+                    
                     {
-                        internationalPrograms.map(program=>{
-                          return(
-                            <SwiperSlide key={program.id} ><Card program={program}></Card></SwiperSlide>
+                        internationalPrograms.map(program=><Card key={program.id}  program={program}></Card>
                           )
-                        })
                     }
-                    </Swiper>
-                </>  
+                   
+                </div>  
             </div>
-            <div className="w-1/2 mx-auto mt-4 md:mt-0 lg:w-1/4 bg-white p-8">
+            <div className="w-1/2 mx-auto mt-4 md:mt-0 lg:w-1/4 bg-white p-8 py-10">
                     <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events <span className="text-primary font-semibold mt-1 text-lg flex gap-x-1 items-center cursor-pointer">view all <FaArrowRight/> 
                     </span>
                     </h2>

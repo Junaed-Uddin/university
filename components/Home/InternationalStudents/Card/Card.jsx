@@ -19,7 +19,7 @@ const Card = ({program}) => {
                     {program.description}
                 </p>
                 <div className="flex justify-center items-center gap-3 my-3">
-                    <p className="font-semibold  capitalize">{program.author}</p>
+                    <p className="font-semibold capitalize">{program.author}</p>
                     <hr className="border-[1px] w-1/4 bg-black" />
                     <p>{program.date}</p>
                 </div>
