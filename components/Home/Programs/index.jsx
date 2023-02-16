@@ -52,7 +52,7 @@ const Programs = () => {
                 <FaUserGraduate className=" text-white text-5xl bg-cyan-400 shadow-lg shadow-cyan-500/50 p-2 rounded-lg"></FaUserGraduate>
                 <h3 className=" mt-4 text-lg font-bold">Graduate Education</h3>
                 <p className=" mt-3 text-sm">
-                  We offer Undergraduate and Postgraduate education
+                  We offer Undergraduate and Postgraduate education.{" "}
                   <a className=" text-blue-500  cursor-pointer">see more</a>
                 </p>
               </div>
@@ -68,8 +68,7 @@ const Programs = () => {
                 <GiArchiveResearch className=" text-white text-5xl bg-violet-400 shadow-lg shadow-violet-400 p-2 rounded-lg"></GiArchiveResearch>
                 <h3 className=" mt-4 text-lg font-bold">Research</h3>
                 <p className=" mt-3 text-sm">
-                  We provide wide range of research materials.
-                  <a className=" text-blue-500  cursor-pointer">see more</a>
+                  We provide wide range of research materials.{" "} <a className=" text-blue-500  cursor-pointer">see more</a>
                 </p>
               </div>
             </div>
@@ -85,8 +84,7 @@ const Programs = () => {
                   Graduate & Professional
                 </h3>
                 <p className=" mt-3 text-sm">
-                  We have arrange workshops to make students more professional.
-                  <a className=" text-blue-500  cursor-pointer">see more</a>
+                  We have arrange workshops to make students more professional.{" "} <a className=" text-blue-500  cursor-pointer">see more</a>
                 </p>
               </div>
             </div>
@@ -98,8 +96,7 @@ const Programs = () => {
                 <GiRank3 className=" text-white text-5xl bg-amber-400 shadow-lg shadow-amber-400 p-2 rounded-lg"></GiRank3>
                 <h3 className=" mt-4 text-lg font-bold">Rankings</h3>
                 <p className=" mt-3 text-sm">
-                  We made top 5 in last year.{" "}
-                  <a className=" text-blue-500  cursor-pointer">see more</a>
+                  We made top 5 in last year.{" "}<a className=" text-blue-500  cursor-pointer">see more</a>
                 </p>
               </div>
             </div>
