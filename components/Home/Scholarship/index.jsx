@@ -88,7 +88,7 @@ const Scholarship = () => {
                     </div>
                 </div>
             </div>
-            <h2 className="mt-5 sm:text-3xl font-bold text-primary">Frequently Asked a Question</h2>
+            <h2 className="mt-5 text-3xl font-bold text-primary">Frequently Asked a Question</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 pt-10">
                 <div className="mr-0 lg:mr-5">
                     <div className="pb-4">
@@ -150,14 +150,14 @@ const Scholarship = () => {
                     </div>
                 </div>
                 <div className="ml-0 lg:ml-5 relative">
-                    <div className="pt-5 pl-0 lg:pt-16 lg:pl-3">
+                    <div className="pt-1 pl-0 lg:pt-16 lg:pl-3">
                         <Image
                             src={scholarship}
                             alt="alumni-association"
                             quality={100}
                             width="100%"
                             height="100%"
-                            className="px-5"
+                            className="sm:px-5"
                         />
                     </div>
                 </div>

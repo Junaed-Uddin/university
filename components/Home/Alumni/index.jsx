@@ -19,7 +19,7 @@ const Alumni = () => {
       <div className="flex flex-col-reverse sm:flex-row justify-center items-center mt-16 relative w-full">
         {/* Text container  */}
         <div
-          className={`bg-white p-10 md:px-20 md:py-16 md:h-[370px] shadow-xl relative -translate-y-8 sm:translate-y-0 sm:translate-x-16 lg:translate-x-24 z-20 sm:w-1/2 mx-6 sm:mx-0`}
+          className={`bg-white p-10 md:px-16 md:py-14 md:h-[370px] shadow-xl relative -translate-y-8 sm:translate-y-0 sm:translate-x-16 lg:translate-x-24 z-20 w-full sm:w-1/2 mx-6 sm:mx-0`}
         >
           <div className={`${styles.borderBox}`}>
             <h2
