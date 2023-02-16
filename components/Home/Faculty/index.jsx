@@ -15,8 +15,8 @@ const Faculty = () => {
 
                 <div className="grid xl:grid-cols-4   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1    gap-7 ">
                     <div>
-                        <div className=" w-64 ">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/6755058/pexels-photo-6755058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
+                        <div className=" w-72 ">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/6755058/pexels-photo-6755058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -30,8 +30,8 @@ const Faculty = () => {
 
              
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/3672355/pexels-photo-3672355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/3672355/pexels-photo-3672355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -41,8 +41,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -54,8 +54,8 @@ const Faculty = () => {
 
 
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/7777182/pexels-photo-7777182.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/7777182/pexels-photo-7777182.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -65,8 +65,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`}  src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`}  src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -76,8 +76,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/8112199/pexels-photo-8112199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
+                        <div className=" w-672">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/8112199/pexels-photo-8112199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -87,8 +87,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/414579/pexels-photo-414579.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/414579/pexels-photo-414579.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -98,8 +98,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/714698/pexels-photo-714698.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/714698/pexels-photo-714698.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
@@ -109,8 +109,8 @@ const Faculty = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" w-64">
-                            <img className={`w-64 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/5726837/pexels-photo-5726837.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
+                        <div className=" w-72">
+                            <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/5726837/pexels-photo-5726837.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=" " />
 
                         </div>
                         <div className=" -translate-y-5">
