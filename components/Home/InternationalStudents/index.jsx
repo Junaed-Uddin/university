@@ -4,12 +4,21 @@ import apply from "../../../public/assets/images/career/apply.jpg";
 import reward from "../../../public/assets/images/career/reward.jpg";
 import Card from "./Card/Card";
 import Event from "./Event/Event";
-import Swiper from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, {Autoplay, navigation, pagination} from "swiper"
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const InternationalStudents = () => {
+  SwiperCore.use([Autoplay])
     const internationalPrograms = [
         {
           id: 1,
+          author: "nick jonas",
+          date: "23 march 2023",
           category: "student's service",
           color: "#00e676",
           heading: "dedicated residency",
@@ -20,6 +29,8 @@ const InternationalStudents = () => {
         },
         {
           id: 2,
+          author: "nick jonas",
+          date: "23 march 2023",
           category: "visa",
           color: "#2196f3",
           heading: "easy to apply for PR",
@@ -30,6 +41,8 @@ const InternationalStudents = () => {
         },
         {
           id: 3,
+          author: "nick jonas",
+          date: "23 march 2023",
           category: "student's service",
           color: "#ff9100",
           heading: "a better community support",
@@ -40,6 +53,8 @@ const InternationalStudents = () => {
         },
         {
             id: 4,
+            author: "nick jonas",
+            date: "23 march 2023",
             category: "student's service",
             color: "#00e676",
             heading: "a better community support",
@@ -47,7 +62,19 @@ const InternationalStudents = () => {
             description:
               "You'll be able to access a range of benefits and rewards to support every stage of your career and life.",
             buttonName: "Learn More",
-          }
+          },
+          {
+            id: 5,
+            author: "nick jonas",
+            date: "23 march 2023",
+            category: "student's service",
+            color: "#2196f3",
+            heading: "dedicated residency",
+            imageURL: opportunity,
+            description:
+              "UniCamp is right for you? We seek people committed to excellence and driven to make the world a better place.",
+            buttonName: "Learn More",
+          },
       ];
       const events = [
         {
@@ -82,22 +109,39 @@ const InternationalStudents = () => {
         },
       ]
     return (
-        <section className="my-4 flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start">
+        <section className="my-4 mx-4 flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start">
             <div className="mt-3 w-3/4">
                 <div className="flex flex-col md:flex-row gap-x-2 items-center">
-                    <h2 className="text-2xl md:text-4xl lg:text-5xl">International Students</h2>
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl">International Students</h2>
                     <p className="text-primary font-semibold text-xl flex gap-x-1 items-center cursor-pointer">
                     view all <FaArrowRight/>
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+                < >
+                    <Swiper
+                    spaceBetween={20}
+                    slidesPerView={3}
+                    loop={true}
+                    autoplay={{
+                      delay: 2000
+                    }}
+                    navigation={{clickable:true}}
+                    pagination={{ clickable: true }}
+                    
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
+                    >
                     {
-                        internationalPrograms.map(program=><Card key={program.id} program={program}></Card>)
+                        internationalPrograms.map(program=>{
+                          return(
+                            <SwiperSlide key={program.id} ><Card program={program}></Card></SwiperSlide>
+                          )
+                        })
                     }
-                </div>  
+                    </Swiper>
+                </>  
             </div>
             <div className="w-1/2 mx-auto mt-4 md:mt-0 lg:w-1/4 bg-white p-8">
-                    <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events <span className="text-primary font-semibold text-lg flex gap-x-1 items-center cursor-pointer">view all <FaArrowRight/> 
+                    <h2 className="text-lg md:text-3xl capitalize mb-4">upcoming events <span className="text-primary font-semibold mt-1 text-lg flex gap-x-1 items-center cursor-pointer">view all <FaArrowRight/> 
                     </span>
                     </h2>
                     <div className="flex flex-col gap-y-4">
