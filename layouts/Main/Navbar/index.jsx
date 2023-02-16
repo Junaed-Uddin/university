@@ -10,6 +10,12 @@ import MenuDrawer from "./MenuDrawer";
 import links from "./links";
 import styles from "@/styles/navbar.module.css";
 import dynamic from "next/dynamic";
+import { Vidaloka } from "@next/font/google";
+
+const vidaloka = Vidaloka({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const DropdownMenu = dynamic(() => import("./Dropdown"), {
   loading: () => "Loading...",
@@ -53,12 +59,15 @@ const Navbar = () => {
         className="gip py-2 lg:py-2.5 border-b-[1px] border-b-ol-default flex gap-2 items-center bg-paper sticky top-0 left-0 z-[1000]"
         id="navbar"
       >
-        <Link href="/" className="text-2xl font-bold mr-auto">
+        <Link
+          href="/"
+          className={`text-[28px] text-primary font-bold tracking-widest mr-auto ${vidaloka.className}`}
+        >
           <span className="text-primary">SummerField</span>
           <span> University</span>
         </Link>
 
-        <nav className="hidden lg:flex gap-1">
+        <nav className="hidden lg:flex gap-4 font-[500]">
           {links.map((link, i) => (
             <Link
               key={link.path}
@@ -68,7 +77,9 @@ const Navbar = () => {
               onMouseLeave={handleLinkMouseLeave}
               onClick={() => handleLinkClick(i)}
               className={`group relative py-4 md:py-6  px-2 ${
-                pathname === link.path ? "text-primary font-bold" : "text-black"
+                pathname === link.path
+                  ? "text-primary font-bold"
+                  : "text-primary font-semibold"
               } before:block before:absolute before:w-full before:h-[50%] before:bg-blue-600/10 before:top-[50%] before:left-0 before:translate-y-[-50%] before:rounded before:scale-0 before:hover:scale-100 before:transition`}
             >
               {link.text}

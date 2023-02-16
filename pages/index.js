@@ -8,6 +8,8 @@ import Programs from "@/components/Home/Programs";
 import Scholarship from "@/components/Home/Scholarship";
 import HeroSection from "@/components/Home/Hero";
 import NewsLetter from "@/components/Home/NewsLetter";
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
       </Head>
       <>
         <HeroSection />
-        <main className="!max-w-[1440px]  flex flex-col gap-6 mx-auto min-h-[calc(100vh-300px)]">
+        <main className="  flex flex-col gap-6 min-h-[calc(100vh-300px)]">
           <Alumni></Alumni>
           <CampusLife></CampusLife>
           <Career></Career>
