@@ -11,6 +11,8 @@ import links from "./links";
 import styles from "@/styles/navbar.module.css";
 import dynamic from "next/dynamic";
 import { Vidaloka } from "@next/font/google";
+import logo from "../../../public/assets/images/logo/logo.png";
+import Image from "next/image";
 
 const vidaloka = Vidaloka({
   weight: "400",
@@ -56,12 +58,15 @@ const Navbar = () => {
     <>
       <UpperSection />
       <header
-        className="gip py-2 lg:py-2.5 border-b-[1px] border-b-ol-default flex gap-2 items-center bg-paper sticky top-0 left-0 z-[1000]"
+        className="gip border-b-[1px] border-b-ol-default flex items-center bg-paper sticky top-0 left-0 z-[1000]"
         id="navbar"
       >
+        <div className="flex justify-start">
+          <Image alt="logo" src={logo} className="w-20 sm:w-24 object-cover"></Image>
+        </div>
         <Link
           href="/"
-          className={`text-[28px] text-primary font-bold tracking-widest mr-auto ${vidaloka.className}`}
+          className={`text-lg md:text-[22px] xl:text-[28px] text-primary font-bold tracking-widest mr-auto ${vidaloka.className}`}
         >
           <span className="text-primary">SummerField</span>
           <span> University</span>

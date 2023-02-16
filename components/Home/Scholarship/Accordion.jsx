@@ -20,7 +20,7 @@ function Accordion({ title, children }) {
                     }`}
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <span className="font-semibold text-sm">{title}</span>
+                    <span className="font-semibold text-[16px]">{title}</span>
                     <svg
                         className={`${
                             isOpen ? "transform rotate-180" : ""

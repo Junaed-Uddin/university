@@ -10,7 +10,7 @@ const Scholarship = () => {
     return (
         <div className="pb-5 px-5 gip">
             <div className=" pb-12">
-                <h2 className=" font-bold text-3xl text-txt-primary my-4 flex gap-4 pb-6">
+                <h2 className=" font-bold text-3xl text-primary my-4 flex gap-4 pb-6">
                     <FaUserGraduate />
                     Scholarships Sources
                 </h2>
@@ -88,7 +88,8 @@ const Scholarship = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 pt-14">
+            <h2 className="mt-5 sm:text-3xl font-bold text-primary">Frequently Asked a Question</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 pt-10">
                 <div className="mr-0 lg:mr-5">
                     <div className="pb-4">
                         <p className=" text-xl text-primary pb-6">
