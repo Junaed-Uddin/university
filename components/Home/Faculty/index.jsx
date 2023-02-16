@@ -13,7 +13,7 @@ const Faculty = () => {
             <p className="mt-5">Use these quick links to find the systems and sites need most.</p>
             <div className=" flex justify-center mt-10">
 
-                <div className="grid xl:grid-cols-4   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1    gap-4 ">
+                <div className="grid xl:grid-cols-4   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1    gap-x-7 gap-y-3 ">
                     <div>
                         <div className=" w-72 ">
                             <img className={`w-72 h-40 ${styles.imgShadow}`} src="https://images.pexels.com/photos/6755058/pexels-photo-6755058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
