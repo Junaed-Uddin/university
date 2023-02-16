@@ -8,7 +8,7 @@ import Accordion from "./Accordion";
 
 const Scholarship = () => {
     return (
-        <div className="pb-5 px-2 sm:gip">
+        <div className="pb-5 gip">
             <div className=" pb-12">
                 <h2 className=" font-bold text-3xl text-primary my-4 flex gap-4 pb-6">
                     <FaUserGraduate />

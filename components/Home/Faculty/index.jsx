@@ -1,7 +1,7 @@
 import styles from "@/styles/faculty.module.css";
 const Faculty = () => {
     return (
-        <div className=" text-center bg-background sm:gip sm:pt-10 mb-5">
+        <div className=" text-center bg-background gip sm:pt-10 mb-5">
             <p>EVERYTHING YOU NEED</p>
             <div className="relative py-2">
                 <h2 className={`text-4xl text-txt-primary text-center font-bold relative`}>
@@ -13,7 +13,7 @@ const Faculty = () => {
             <p className="mt-5">Use these quick links to find the systems and sites need most.</p>
             <div className=" flex justify-center mt-10">
 
-                <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-12 gap-y-3 ">
+                <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-14 gap-y-6 ">
                     <div>
                         <div className=" w-80 ">
                             <img className={`w-80 h-52 ${styles.imgShadow}`} src="https://images.pexels.com/photos/6755058/pexels-photo-6755058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" " />
@@ -21,13 +21,10 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-56 p-3 `}>Computer Science</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-56 p-3 `}>Computer Science</button>
 
                         </div>
                     </div>
-
-
-
              
                     <div>
                         <div className=" w-80">
@@ -36,7 +33,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>Electrical Engineering</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>Electrical Engineering</button>
 
                         </div>
                     </div>
@@ -47,7 +44,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>Civil Engineering</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>Civil Engineering</button>
 
                         </div>
                     </div>
@@ -60,7 +57,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>ENGLISH</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>ENGLISH</button>
 
                         </div>
                     </div> */}
@@ -71,7 +68,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>DBA</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>DBA</button>
 
                         </div>
                     </div>
@@ -82,7 +79,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>LAW</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>LAW</button>
 
                         </div>
                     </div>
@@ -93,7 +90,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>MECHANICS</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>MECHANICS</button>
 
                         </div>
                     </div>
@@ -104,7 +101,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>Physics</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>Physics</button>
 
                         </div>
                     </div>
@@ -115,7 +112,7 @@ const Faculty = () => {
                         </div>
                         <div className=" -translate-y-5">
 
-                        <button className={`${styles.opt} ${styles.optHover} text-white bg-blue-600 w-60 p-3 `}>Chemistry</button>
+                        <button className={`${styles.opt} ${styles.optHover} text-black font-[500] bg-blue-600 w-60 p-3 `}>Chemistry</button>
 
                         </div>
                     </div>
