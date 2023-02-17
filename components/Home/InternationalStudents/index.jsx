@@ -85,10 +85,10 @@ const InternationalStudents = () => {
             date: "23 may",
             time: "10:00- 12:00",
             title: "international affiliation fair"
-        },
+        }
       ]
     return (
-        <section className="my-4 mx-4 flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start">
+        <section className="my-4 mx-4 gip flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start">
             <div className="mt-3 w-3/4">
                 <div className="flex flex-col md:flex-row gap-x-2 items-center">
                     <h2 className="text-2xl md:text-3xl lg:text-4xl">International Students</h2>

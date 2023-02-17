@@ -88,8 +88,8 @@ const Scholarship = () => {
                     </div>
                 </div>
             </div>
-            <h2 className="mt-5 text-3xl font-bold text-primary">Frequently Asked a Question</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 pt-10">
+            <h2 className="mt-14 text-3xl font-bold text-primary">Frequently Asked a Question</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 pt-6">
                 <div className="mr-0 lg:mr-5">
                     <div className="pb-4">
                         <p className=" text-xl text-primary pb-6">
