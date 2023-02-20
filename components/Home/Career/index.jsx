@@ -33,7 +33,7 @@ const Career = () => {
   ];
 
   return (
-    <section className="mb-10 mt-10 gip">
+    <section className="mb-10 mt-10 gip" data-aos="fade-up" data-aos-duration="1200">
       <div className="relative">
         <h2
           className={`text-4xl text-txt-primary text-center font-bold relative`}

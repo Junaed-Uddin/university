@@ -5,7 +5,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 const Alumni = () => {
   return (
-    <section className="mt-10 mb-10 gip">
+    <section className="mt-10 mb-10 gip" data-aos="zoom-in" data-aos-duration="1200">
       <div className="relative">
         <h2
           className={`text-4xl text-txt-primary text-center font-bold relative`}

@@ -88,7 +88,7 @@ const InternationalStudents = () => {
         }
       ]
     return (
-        <section className="my-4 mx-4 gip flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start">
+        <section className="my-4 mx-4 gip flex flex-col lg:flex-row gap-x-8 justify-center items-center lg:items-start" data-aos="fade-down" data-aos-duration="800">
             <div className="mt-3 w-3/4">
                 <div className="flex flex-col md:flex-row gap-x-2 items-center">
                     <h2 className="text-2xl md:text-3xl lg:text-4xl">International Students</h2>

@@ -3,7 +3,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 const NewsLetter = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" data-aos="fade-up" data-aos-duration="1200">
       <div className=" h-72 flex flex-col justify-center items-center mx-3">
         <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-sans max-w-[450px] text-on-secondary tracking-wider font-bold">
           Get the latest news delivered to you inbox

@@ -11,6 +11,7 @@ import NewsLetter from '@/components/Home/NewsLetter';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+
 export default function Home() {
   return (
     <>
